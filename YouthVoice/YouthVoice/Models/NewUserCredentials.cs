@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace YouthVoice.Models
 {
-    public class AuthData
+    public class NewUserCredentials
     {        
         [Required]
         public string? Username { get; set; }
@@ -16,8 +16,5 @@ namespace YouthVoice.Models
 
         [Required]
         public string? Password { get; set; }
-
-        //[Required]
-        //public string? PasswordConfirmation { get; set; }
     }
 }

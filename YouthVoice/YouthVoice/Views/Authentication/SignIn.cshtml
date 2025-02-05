@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "SignIn";
+}
+@model YouthVoice.Models.SigninUser
+
+<h2>Sign in</h2> <br />
+
+<form asp-action="SignIn" asp-controller="Authentication">
+    <label>Email:</label>
+    <input class="form-control" type="text" name="email" placeholder="Enter an username" asp-for="Email" required />
+    @if (ViewBag.EmailError != null)
+    {
+        <p style="color:red;">@ViewBag.EmailError</p>
+    } <br />
+
+    <label>Password:</label>
+    <input class="form-control" type="password" name="password" placeholder="Enter a password" asp-for="Password" required />
+    @if (ViewBag.PasswordError != null)
+    {
+        <p style="color:red;">@ViewBag.PasswordError</p>
+    } <br />
+
+    <button class="btn btn-primary" type="submit">Register</button>
+</form> <br />
+
+@if (ViewBag.Error != null)
+{
+    <p style="color:red;">@ViewBag.Error</p>
+}
+@if (ViewBag.Message != null)
+{
+    <p style="color:green;">@ViewBag.Message</p>
+}

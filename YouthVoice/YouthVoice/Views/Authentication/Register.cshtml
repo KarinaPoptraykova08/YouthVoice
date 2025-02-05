@@ -9,22 +9,33 @@ else if (ViewData["Success"] != null)
 {
     <div class="alert alert-danger">@ViewData["ErrorMessage"]</div>
 }
-@model YouthVoice.Models.AuthData
+@model YouthVoice.Models.NewUserCredentials
 
 <h2>Register</h2> <br/>
 
-<form asp-action="CreateAccount" asp-controller="Authentication">
+<form asp-action="Register" asp-controller="Authentication">
     <label>Username:</label>
     <input class="form-control" type="text" name="username" placeholder="Enter an username" asp-for="Username" required /> <br/>
 
     <label>Email:</label>
-    <input class="form-control" type="email" name="email" placeholder="Enter your email" asp-for="Email" required /> <br />
+    <input class="form-control" type="email" name="email" placeholder="Enter your email" asp-for="Email" required />
+    @if (ViewBag.EmailError != null)
+    {
+        <p style="color:red;">@ViewBag.EmailError</p>
+    } <br />
 
     <label>Password:</label>
-    <input class="form-control" type="password" name="password" placeholder="Enter a password" asp-for="Password" required /> <br />
-
-    @* <label>Confirm password:</label>
-    <input class="form-control" type="password" name="confirmedPassword" placeholder="Re-enter your password" asp-for="PasswordConfirmation" required /> <br /> *@
+    <input class="form-control" type="password" name="password" placeholder="Enter a password" asp-for="Password" required />
+    @if (ViewBag.PasswordError != null)
+    {
+        <p style="color:red;">@ViewBag.PasswordError</p>
+    } <br />
 
     <button class="btn btn-primary" type="submit">Register</button>
-</form>
+</form> <br />
+
+
+@if (ViewBag.Message != null)
+{
+    <p style="color:green;">@ViewBag.Message</p>
+}
