@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+@if (ViewData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@ViewData["ErrorMessage"]</div>
+}
+else if (ViewData["Success"] != null)
+{
+    <div class="alert alert-danger">@ViewData["ErrorMessage"]</div>
+}
+@model YouthVoice.Models.AuthData
+
+<h2>Register</h2> <br/>
+
+<form asp-action="CreateAccount" asp-controller="Authentication">
+    <label>Username:</label>
+    <input class="form-control" type="text" name="username" placeholder="Enter an username" asp-for="Username" required /> <br/>
+
+    <label>Email:</label>
+    <input class="form-control" type="email" name="email" placeholder="Enter your email" asp-for="Email" required /> <br />
+
+    <label>Password:</label>
+    <input class="form-control" type="password" name="password" placeholder="Enter a password" asp-for="Password" required /> <br />
+
+    @* <label>Confirm password:</label>
+    <input class="form-control" type="password" name="confirmedPassword" placeholder="Re-enter your password" asp-for="PasswordConfirmation" required /> <br /> *@
+
+    <button class="btn btn-primary" type="submit">Register</button>
+</form>

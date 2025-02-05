@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/R0FeGZeV/w=",
+  "success": true,
+  "projectFilePath": "C:\\VisualStudio\\YouthVoice\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yanis\\.nuget\\packages\\firebaseauthentication.net\\4.1.0\\firebaseauthentication.net.4.1.0.nupkg.sha512",
+    "C:\\Users\\Yanis\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
