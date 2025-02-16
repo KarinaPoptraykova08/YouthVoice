@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VisualStudio\\YouthVoice\\YouthVoice\\YouthVoice.csproj": {}
+    "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\YouthVoice.csproj": {}
   },
   "projects": {
-    "C:\\VisualStudio\\YouthVoice\\YouthVoice\\YouthVoice.csproj": {
+    "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\YouthVoice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VisualStudio\\YouthVoice\\YouthVoice\\YouthVoice.csproj",
+        "projectUniqueName": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\YouthVoice.csproj",
         "projectName": "YouthVoice",
-        "projectPath": "C:\\VisualStudio\\YouthVoice\\YouthVoice\\YouthVoice.csproj",
+        "projectPath": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\YouthVoice.csproj",
         "packagesPath": "C:\\Users\\Yanis\\.nuget\\packages\\",
-        "outputPath": "C:\\VisualStudio\\YouthVoice\\YouthVoice\\obj\\",
+        "outputPath": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,6 +62,10 @@
             "Google.Apis.Auth": {
               "target": "Package",
               "version": "[1.69.0, )"
+            },
+            "Google.Cloud.Firestore": {
+              "target": "Package",
+              "version": "[3.9.0, )"
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",

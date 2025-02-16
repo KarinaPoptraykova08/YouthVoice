@@ -2,19 +2,30 @@
 using YouthVoice.Models;
 using Firebase.Auth;
 using Firebase.Auth.Providers;
+using Google.Cloud.Firestore;
 using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using System.Security.Cryptography.Xml;
+using FirebaseAdmin.Auth;
+using FirebaseAdmin;
+using Google.Apis.Auth.OAuth2;
+using Google.Cloud.Firestore.V1;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 
 namespace YouthVoice.Controllers
 {
     public class AuthenticationController : Controller
     {
-        private FirebaseAuthConfig config;
+        private FirebaseAuthClient _firebaseClient;
+
+        private FirestoreDb _firestoreDb;
 
         public AuthenticationController()
         {
-            config = new FirebaseAuthConfig
+            // Setting the config
+            FirebaseAuthConfig config = new FirebaseAuthConfig
             {
                 ApiKey = "AIzaSyC0J4YIz_7nwi0UlJ47hAxSLMONNMRMYrk",
                 AuthDomain = "youthvoice-e4498.firebaseapp.com",
@@ -25,6 +36,18 @@ namespace YouthVoice.Controllers
                     new EmailProvider()
                 }
             };
+
+            // Creating the client
+            _firebaseClient = new FirebaseAuthClient(config);
+
+            // Setting the firestore database (used for storing the role of a user)
+            var credentials = GoogleCredential.FromFile("wwwroot/firebase-key.json");
+            var firestoreClientBuilder = new FirestoreClientBuilder
+            {
+                Credential = credentials,
+            };
+            FirestoreClient firestoreClient = firestoreClientBuilder.Build();
+            _firestoreDb = FirestoreDb.Create("youthvoice-e4498", firestoreClient);
         }
 
         public IActionResult SignIn()
@@ -37,18 +60,29 @@ namespace YouthVoice.Controllers
         {
             try
             {
-                // Create the client
-                var client = new FirebaseAuthClient(config);
+                // Logging in the user
+                var userRecord = await _firebaseClient.SignInWithEmailAndPasswordAsync(userData.Email, userData.Password);
 
-                // Log in the user
-                await client.SignInWithEmailAndPasswordAsync(userData.Email, userData.Password);
+                // Fetching an user's role
+                var doc = await _firestoreDb.Collection("users").Document(userRecord.User.Uid).GetSnapshotAsync();
+                var role = doc.Exists ? doc.GetValue<string>("role") : "viewer";
+
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Email, userRecord.User.Info.Email),
+                    new Claim(ClaimTypes.Name, userRecord.User.Info.DisplayName),
+                    new Claim(ClaimTypes.Role, role)
+                };
+
+                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
 
                 // Displaying a greeting
-                ViewBag.Message = $"Hello {client.User.Info.DisplayName}";
+                ViewBag.Message = $"Hello {_firebaseClient.User.Info.DisplayName}";
 
-                return View();
+                return RedirectToAction("Index", "Home");
             }
-            catch (FirebaseAuthException ex)
+            catch (Firebase.Auth.FirebaseAuthException ex)
             {
                 switch (ex.Reason)
                 {
@@ -77,21 +111,23 @@ namespace YouthVoice.Controllers
         {
             try
             {
-                // Create the client
-                var client = new FirebaseAuthClient(config);
+                // Creating the user
+                var userRecords = await _firebaseClient.CreateUserWithEmailAndPasswordAsync(userData.Email, userData.Password, userData.Username);
 
-                // Create the user
-                await client.CreateUserWithEmailAndPasswordAsync(userData.Email, userData.Password, userData.Username);
-
-                // Log in the new user
-                var fbAuthLink = await client.SignInWithEmailAndPasswordAsync(userData.Email, userData.Password);
+                // Determining the role
+                var userDoc = _firestoreDb.Collection("users").Document(userRecords.User.Uid);
+                await userDoc.SetAsync(new
+                {
+                    email = userData.Email,
+                    role = "viewer"
+                });
 
                 // Confirming the successful registration
                 ViewBag.Message = "Registration successful!";
 
-                return View();
+                return RedirectToAction("SignIn");
             }
-            catch (FirebaseAuthException ex)
+            catch (Firebase.Auth.FirebaseAuthException ex)
             {
                 switch (ex.Reason)
                 {
@@ -106,6 +142,13 @@ namespace YouthVoice.Controllers
 
                 return View();
             }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SignOut()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Index", "Home");
         }
     }
 }
