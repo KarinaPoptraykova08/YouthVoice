@@ -13,6 +13,9 @@ using Google.Cloud.Firestore.V1;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
+using Newtonsoft.Json;
+using System.Text;
+using Google.Apis.Auth;
 
 namespace YouthVoice.Controllers
 {
@@ -21,6 +24,8 @@ namespace YouthVoice.Controllers
         private FirebaseAuthClient _firebaseClient;
 
         private FirestoreDb _firestoreDb;
+
+        private readonly FirebaseAuthService _firebaseAuthService;
 
         public AuthenticationController()
         {
@@ -48,6 +53,9 @@ namespace YouthVoice.Controllers
             };
             FirestoreClient firestoreClient = firestoreClientBuilder.Build();
             _firestoreDb = FirestoreDb.Create("youthvoice-e4498", firestoreClient);
+
+            // Setting the reset password survice
+            _firebaseAuthService = new FirebaseAuthService();
         }
 
         public IActionResult SignIn()
@@ -113,17 +121,17 @@ namespace YouthVoice.Controllers
             {
                 // Creating the user
                 var userRecords = await _firebaseClient.CreateUserWithEmailAndPasswordAsync(userData.Email, userData.Password, userData.Username);
-
+                
                 // Determining the role
                 var userDoc = _firestoreDb.Collection("users").Document(userRecords.User.Uid);
                 await userDoc.SetAsync(new
                 {
                     email = userData.Email,
                     role = "viewer"
-                });
+                });                
 
                 // Confirming the successful registration
-                ViewBag.Message = "Registration successful!";
+                ViewBag.Message += "Регистрацията е успешна";
 
                 return RedirectToAction("SignIn");
             }
@@ -131,12 +139,12 @@ namespace YouthVoice.Controllers
             {
                 switch (ex.Reason)
                 {
-                    case AuthErrorReason.EmailExists: ViewBag.EmailError = "The email address is already registered."; 
+                    case AuthErrorReason.EmailExists: ViewBag.EmailError = "Имейл адресът вече е бил регистриран."; 
                         break;
-                    case AuthErrorReason.WeakPassword: ViewBag.PasswordError = "The password is too weak. Minimum 6 characters."; 
+                    case AuthErrorReason.WeakPassword: ViewBag.PasswordError = "Паролата е прекалено слаба. Изискват се поне 6 символа, главни и малки букви."; 
                         break;
 
-                    default: ViewBag.ErrorMessage = "An error occured"; 
+                    default: ViewBag.ErrorMessage = "Възникна грешка."; 
                         break;
                 }
 
@@ -149,6 +157,28 @@ namespace YouthVoice.Controllers
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Index", "Home");
+        }
+           
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ForgotPassword(string email)
+        {
+            var success = await _firebaseAuthService.SendPasswordResetEmailAsync(email);
+
+            if (success)
+            {
+                ViewBag.Message = "Password reset email sent. Check your inbox.";
+            }
+            else
+            {
+                ViewBag.Message = "Error sending password reset email.";
+            }
+
+            return View();
         }
     }
 }

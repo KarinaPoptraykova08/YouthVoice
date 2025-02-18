@@ -4,6 +4,7 @@ using YouthVoice.Data;
 using FirebaseAdmin;
 using Google.Apis.Auth.OAuth2;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using YouthVoice.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +31,8 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     {
         options.LoginPath = "/Authentication/SignIn";
     });
+
+builder.Services.AddSingleton<FirebaseAuthService>();
 
 var app = builder.Build();
 

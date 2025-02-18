@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "RoleManaging";
+}
+
+@model List<YouthVoice.Models.UserModel>
+
+<h2>Promote Viewers to Editors</h2>
+
+<table border="1" cellpadding="10" class="align-content-center table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>@user.Role</td>
+                <td>
+                    <form asp-action="PromoteToEditor" method="post">
+                        <input type="hidden" name="email" value="@user.Email" />
+                        <button class="btn-primary rounded-3" type="submit">Promote to Editor</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

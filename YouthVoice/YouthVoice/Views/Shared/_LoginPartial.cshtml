@@ -9,7 +9,7 @@
             <p class="nav-link text-dark">Hello @User.Identity?.Name!</p>
         </li>
 
-        if (User.IsInRole("moderator"))
+        if (User.IsInRole("editor"))
         {
             <li>
                 <form asp-controller="Moderator" asp-action="ModeratorPage">
@@ -20,8 +20,8 @@
         else if (User.IsInRole("owner")) 
         {
             <li>
-                <form asp-controller="Moderator" asp-action="ModeratorPage">
-                    <button type="submit" class="nav-link btn btn-link text-dark">Moderator</button>
+                <form asp-controller="Administrator" asp-action="RoleManaging">
+                    <button type="submit" class="nav-link btn btn-link text-dark">RoleManaging</button>
                 </form>
             </li>
         }

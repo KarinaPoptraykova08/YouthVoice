@@ -23,6 +23,9 @@
     <button class="btn btn-primary" type="submit">Register</button>
 </form> <br />
 
+@* <a class="link-dark" asp-controller="Authentication" asp-action="ForgotPassword">Reset password</a> *@
+<a class="link-dark" asp-area="" asp-controller="Authentication" asp-action="ForgotPassword">Reset password</a>
+
 @if (ViewBag.Error != null)
 {
     <p style="color:red;">@ViewBag.Error</p>
