@@ -1,0 +1,401 @@
+﻿/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global Styles */
+:root {
+    --primary-color: #4e54c8;
+    --primary-dark: #3f44ae;
+    --secondary-color: #8f94fb;
+    --accent-color: #ff7e5f;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --text-color: #495057;
+    --border-radius: 0.5rem;
+    --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    --transition: all 0.3s ease;
+}
+
+body {
+    font-family: "Jost", sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+main {
+    margin-top: 4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+    a:hover {
+        color: var(--primary-dark);
+    }
+
+.section-title {
+    position: relative;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
+    .section-title::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        transform: translateX(-50%);
+        width: 50px;
+        height: 3px;
+        background-color: var(--primary-color);
+    }
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.brand-text {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: var(--dark-color);
+    margin: 0 0.5rem;
+    transition: var(--transition);
+}
+
+    .nav-link:hover {
+        color: var(--primary-color);
+    }
+
+.login-btn,
+.signup-btn {
+    margin-left: 0.5rem;
+    border-radius: var(--border-radius);
+    padding: 0.5rem 1rem;
+}
+
+.login-btn {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.signup-btn {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.signup-btn:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 600px;
+    background-color: #000;
+}
+
+    .carousel-item img {
+        object-fit: cover;
+        height: 100%;
+        opacity: 0.7;
+    }
+
+.carousel-caption {
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+    .carousel-caption h1 {
+        font-size: 3.5rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .carousel-caption p {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+/* Events Section */
+.events-row {
+    padding-bottom: 1rem;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) var(--light-color);
+}
+
+    .events-row::-webkit-scrollbar {
+        height: 6px;
+    }
+
+    .events-row::-webkit-scrollbar-track {
+        background: var(--light-color);
+    }
+
+    .events-row::-webkit-scrollbar-thumb {
+        background-color: var(--primary-color);
+        border-radius: 20px;
+    }
+
+.event-card {
+    transition: var(--transition);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 1rem;
+    border: none;
+    min-width: 280px;
+}
+
+    .event-card:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--box-shadow);
+    }
+
+    .event-card .card-img-top {
+        height: 180px;
+        object-fit: cover;
+    }
+
+.event-date,
+.event-time,
+.event-org {
+    font-size: 0.85rem;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+    .event-date i,
+    .event-time i,
+    .event-org i {
+        color: var(--primary-color);
+        margin-right: 0.5rem;
+    }
+
+/* Contact Form */
+.card.shadow {
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.form-control {
+    border-radius: var(--border-radius);
+    padding: 0.75rem;
+}
+
+    .form-control:focus {
+        box-shadow: 0 0 0 0.2rem rgba(78, 84, 200, 0.25);
+        border-color: var(--primary-color);
+    }
+
+/* Organization Cards */
+.org-card {
+    transition: var(--transition);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.org-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--box-shadow);
+}
+
+.org-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.org-location {
+    font-size: 0.85rem;
+    color: var(--text-color);
+    margin-top: 1rem;
+}
+
+.org-location i {
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.footer h5 {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: white; /* Changed from default */
+}
+
+.footer .list-unstyled li {
+    margin-bottom: 0.75rem;
+}
+
+.footer .text-muted {
+    color: #b3b3b3 !important;
+}
+
+.footer a.text-muted {
+    transition: var(--transition);
+}
+
+.footer a.text-muted:hover {
+    color: white !important;
+    text-decoration: none;
+}
+
+.footer p {
+    color: #b3b3b3;
+}
+
+footer img {
+    filter: brightness(90%);
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: var(--transition);
+}
+
+.social-icons a:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-3px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .carousel-caption h1 {
+        font-size: 2.5rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1.2rem;
+    }
+
+    .navbar {
+        padding: 0.5rem 0;
+    }
+
+    .login-btn,
+    .signup-btn {
+        margin: 0.5rem 0;
+        display: block;
+        text-align: center;
+    }
+
+    .org-logo {
+        display: none;
+    }
+
+    footer img {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .hero-section,
+    .carousel-item {
+        height: 80vh;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .org-logo {
+        display: none;
+    }
+
+    footer img {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        padding: 1rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1.75rem;
+    }
+
+    .event-card {
+        min-width: 240px;
+    }
+
+    footer img {
+        display: none;
+    }
+
+    .org-logo {
+        display: none;
+    }
+}

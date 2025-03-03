@@ -1,21 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using YouthVoice.Models;
 using Firebase.Auth;
 using Firebase.Auth.Providers;
 using Google.Cloud.Firestore;
-using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using System.Security.Cryptography.Xml;
-using FirebaseAdmin.Auth;
-using FirebaseAdmin;
 using Google.Apis.Auth.OAuth2;
 using Google.Cloud.Firestore.V1;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
-using Newtonsoft.Json;
-using System.Text;
-using Google.Apis.Auth;
+using FirebaseAdmin.Auth;
 
 namespace YouthVoice.Controllers
 {
@@ -24,8 +16,6 @@ namespace YouthVoice.Controllers
         private FirebaseAuthClient _firebaseClient;
 
         private FirestoreDb _firestoreDb;
-
-        private readonly FirebaseAuthService _firebaseAuthService;
 
         public AuthenticationController()
         {
@@ -53,9 +43,6 @@ namespace YouthVoice.Controllers
             };
             FirestoreClient firestoreClient = firestoreClientBuilder.Build();
             _firestoreDb = FirestoreDb.Create("youthvoice-e4498", firestoreClient);
-
-            // Setting the reset password survice
-            _firebaseAuthService = new FirebaseAuthService();
         }
 
         public IActionResult SignIn()
@@ -64,7 +51,7 @@ namespace YouthVoice.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> SignIn(SigninUser userData)
+        public async Task<IActionResult> SignIn(Models.User userData)
         {
             try
             {
@@ -94,14 +81,14 @@ namespace YouthVoice.Controllers
             {
                 switch (ex.Reason)
                 {
-                    case AuthErrorReason.WrongPassword: ViewBag.PasswordError = "Incorrect password.";
+                    case AuthErrorReason.WrongPassword: ViewBag.PasswordError = "Неправилна парола.";
                         break;
-                    case AuthErrorReason.UnknownEmailAddress: ViewBag.EmailError = "No user with this email was found.";
+                    case AuthErrorReason.UnknownEmailAddress: ViewBag.EmailError = "Не беше намерен потребител с този имейл.";
                         break;
-                    case AuthErrorReason.UserDisabled: ViewBag.Error = "This account has been disabled.";
+                    case AuthErrorReason.UserDisabled: ViewBag.Error = "Този акаунт е деактивиран.";
                         break;
 
-                    default: ViewBag.Error = "Authentication failed.";
+                    default: ViewBag.Error = "Неправилен имейл или парола.";
                         break;
                 }
 
@@ -109,13 +96,14 @@ namespace YouthVoice.Controllers
             }
         }
 
+
         public IActionResult Register()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Register(NewUserCredentials userData)
+        public async Task<IActionResult> Register(Models.User userData)
         {
             try
             {
@@ -152,33 +140,38 @@ namespace YouthVoice.Controllers
             }
         }
 
+
         [HttpPost]
         public async Task<IActionResult> SignOut()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Index", "Home");
         }
+
            
         public IActionResult ForgotPassword()
         {
             return View();
         }
 
+
         [HttpPost]
         public async Task<IActionResult> ForgotPassword(string email)
         {
-            var success = await _firebaseAuthService.SendPasswordResetEmailAsync(email);
+            var user = new Models.User();
+            bool isResetEmailSent = await user.SendPasswordResetEmailAsync(email);
 
-            if (success)
+            if (isResetEmailSent)
             {
-                ViewBag.Message = "Password reset email sent. Check your inbox.";
+                ViewBag.Message = "Имейл за нулиране на паролата Ви е изпратен. Проверете входящата си кутия.";
             }
             else
             {
-                ViewBag.Message = "Error sending password reset email.";
+                ViewBag.Message = "Възникна грешка при изпращането на имейла. Моля опитайте отново.";
             }
 
             return View();
         }
+
     }
 }

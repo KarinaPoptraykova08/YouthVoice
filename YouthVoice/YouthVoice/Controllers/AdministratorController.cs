@@ -1,4 +1,5 @@
-﻿using Google.Apis.Auth.OAuth2;
+﻿using FirebaseAdmin.Auth;
+using Google.Apis.Auth.OAuth2;
 using Google.Cloud.Firestore;
 using Google.Cloud.Firestore.V1;
 using Microsoft.AspNetCore.Mvc;
@@ -10,6 +11,9 @@ namespace YouthVoice.Controllers
     {
         private FirestoreDb _firestoreDb;
         private EmailService _emailService;
+        private FirebaseAuth _fbAuth;
+
+        private UserRoleMangement userRoleManagement;
 
         public AdministratorController()
         {
@@ -22,32 +26,50 @@ namespace YouthVoice.Controllers
             FirestoreClient firestoreClient = firestoreClientBuilder.Build();
             _firestoreDb = FirestoreDb.Create("youthvoice-e4498", firestoreClient);
 
+            _fbAuth = FirebaseAuth.DefaultInstance;
+
             _emailService = new EmailService();
+
+            userRoleManagement = new UserRoleMangement();
         }
 
-        public async Task<IActionResult> RoleManaging()
+        public async Task<IActionResult> AdminDashboard()
         {
-            var viewers = new List<UserModel>();
-
-            Query query = _firestoreDb.Collection("users").WhereEqualTo("role", "viewer");
-            QuerySnapshot snapshot = await query.GetSnapshotAsync();
-
             if (!User.IsInRole("owner"))
             {
                 return Forbid();
             }
 
-            if (snapshot.Documents.Any())
+            int userCount = await GetUsersCountAsync();
+            return View(userCount);
+        }
+
+
+        public async Task<int> GetUsersCountAsync()
+        {
+            var users = await _fbAuth.ListUsersAsync(null).ToListAsync();
+
+            return users.Count;
+        }
+
+        public async Task<IActionResult> RoleManaging()
+        {
+            if (!User.IsInRole("owner"))
             {
-                foreach (DocumentSnapshot document in snapshot.Documents)
-                {
-                    var user = document.ConvertTo<UserModel>();
-                    user.Email = document.GetValue<string>("email");
-                    viewers.Add(user);
-                }
+                return Forbid();
             }
 
-            return View(viewers);
+            try
+            {
+                var fetchViewers = await userRoleManagement.FetchUsers();
+                return View(fetchViewers);
+            }
+            catch (Exception)
+            {
+                ViewBag.ErrorMessage = "Възникна грешка при извличането на потребителите от базата от данни.";
+            }
+
+            return View();
         }
 
         [HttpPost]
@@ -59,7 +81,7 @@ namespace YouthVoice.Controllers
 
             if (!snapshot.Documents.Any())
             {
-                return NotFound("User not found");
+                return NotFound("Потребителят не е намерен");
             }
 
             // Get the first matching document (assuming email is unique)
@@ -70,11 +92,65 @@ namespace YouthVoice.Controllers
             await userRef.UpdateAsync("role", "editor");
 
             // Send notification email
-            string subject = "Your Role Has Been Updated";
-            string body = $"Dear Sir/Madam,<br><br>Your role has been changed to <strong>Editor</strong> in our system.<br><br>Yours sincerely,<br>The team of YouthVoice";
-            await _emailService.SendEmailAsync(email, subject, body);
+            string subject = "Вашата роля беше променена";
+            string body = $"Уважаеми господине/госпожо,<br><br>Уведомяваме Ви, че вашата роля беше променена в <strong>Editor/Moderator</strong> в нашата система.<br><br>С уважение,<br>Екипът на YouthVoice";
+            _emailService.SendEmail(email, subject, body);
 
             return RedirectToAction("RoleManaging");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DemoteToViewer(string email)
+        {
+            // Query Firestore for the document that has this email
+            Query query = _firestoreDb.Collection("users").WhereEqualTo("email", email);
+            QuerySnapshot snapshot = await query.GetSnapshotAsync();
+
+            if (!snapshot.Documents.Any())
+            {
+                return NotFound("Потребителят не е намерен");
+            }
+
+            // Get the first matching document (assuming email is unique)
+            DocumentSnapshot userDoc = snapshot.Documents.First();
+            DocumentReference userRef = userDoc.Reference;
+
+            // Update the role field
+            await userRef.UpdateAsync("role", "viewer");
+
+            // Send notification email
+            string subject = "Вашата роля беше променена";
+            string body = $"Уважаеми господине/госпожо,<br><br>Уведомяваме Ви, че вашата роля беше променена във <strong>Viewer</strong> в нашата система.<br><br>С уважение,<br>Екипът на YouthVoice";
+            _emailService.SendEmail(email, subject, body);
+
+            return RedirectToAction("RoleManaging");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteUser(string email)
+        {
+            try
+            {
+                // Delete the user from Firebase Authentication
+                var user = await _fbAuth.GetUserByEmailAsync(email);
+                await _fbAuth.DeleteUserAsync(user.Uid);
+
+                // Delete the user's role document from Firestore
+                Query query = _firestoreDb.Collection("users").WhereEqualTo("email", email);
+                QuerySnapshot snapshot = await query.GetSnapshotAsync();
+
+                foreach (var document in snapshot.Documents)
+                {
+                    await document.Reference.DeleteAsync();
+                }
+
+                return RedirectToAction("RoleManaging");
+            }
+            catch (Exception)
+            {
+                ViewBag.ErrorMessage = $"Възникна грешка при премахване на потребител: {email}";
+                return RedirectToAction("RoleManaging");
+            }
         }
     }
 }

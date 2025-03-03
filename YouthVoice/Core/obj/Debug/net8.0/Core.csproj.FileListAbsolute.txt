@@ -11,3 +11,5 @@ C:\Users\Yanis\Documents\За училище\11 клас\Информатика\
 C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\Core\obj\Debug\net8.0\refint\Core.dll
 C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\Core\obj\Debug\net8.0\Core.pdb
 C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\Core\obj\Debug\net8.0\ref\Core.dll
+C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\Core\bin\Debug\net8.0\Core.runtimeconfig.json
+C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\Core\obj\Debug\net8.0\Core.genruntimeconfig.cache

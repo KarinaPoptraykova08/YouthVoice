@@ -9,31 +9,74 @@ else if (ViewData["Success"] != null)
 {
     <div class="alert alert-danger">@ViewData["ErrorMessage"]</div>
 }
-@model YouthVoice.Models.NewUserCredentials
+@model YouthVoice.Models.User
 
-<h2>Register</h2> <br/>
-
-<form asp-action="Register" asp-controller="Authentication">
-    <label>Username:</label>
-    <input class="form-control" type="text" name="username" placeholder="Enter an username" asp-for="Username" required /> <br/>
-
-    <label>Email:</label>
-    <input class="form-control" type="email" name="email" placeholder="Enter your email" asp-for="Email" required />
-    @if (ViewBag.EmailError != null)
-    {
-        <p style="color:red;">@ViewBag.EmailError</p>
-    } <br />
-
-    <label>Password:</label>
-    <input class="form-control" type="password" name="password" placeholder="Enter a password" asp-for="Password" required />
-    @if (ViewBag.PasswordError != null)
-    {
-        <p style="color:red;">@ViewBag.PasswordError</p>
-    } <br />
-
-    <button class="btn btn-primary" type="submit">Register</button>
-</form> <br />
-
+<main>
+    <section class="py-5 my-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-5">
+                    <div class="card shadow border-0 rounded-lg">
+                        <div class="card-header bg-white text-center py-5 pb-0 border-0">
+                            <h3 class="mb-0">Sign up to YouthVoice</h3>
+                        </div>
+                        <div class="card-body p-4 p-md-5">
+                            <form id="loginForm" asp-action="Register" asp-controller="Authentication">
+                                <div class="mb-4">
+                                    <label for="username" class="form-label">Username</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fa fa-user-circle"></i></span>
+                                        <input class="form-control" type="text" name="username" placeholder="username" asp-for="Username" required>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                                        <input class="form-control" type="text" name="email" placeholder="name@example.com" asp-for="Email" required>
+                                    </div>
+                                    @if (ViewBag.EmailError != null)
+                                    {
+                                        <p style="color:red;">@ViewBag.EmailError</p>
+                                    }
+                                </div>
+                                <div class="mb-4">
+                                    <label for="password" class="form-label">Password</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                                        <input class="form-control" type="password" name="password" placeholder="Password" asp-for="Password" required>
+                                    </div>
+                                    @if (ViewBag.PasswordError != null)
+                                    {
+                                        <p style="color:red;">@ViewBag.PasswordError</p>
+                                    }
+                                </div>
+                                <div class="mb-4 form-check">
+                                    <input type="checkbox" class="form-check-input" id="rememberMe">
+                                    <label class="form-check-label" for="rememberMe">Remember me</label>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary btn-lg">Login</button>
+                                </div>
+                            </form>
+                            <div class="text-center mt-4">
+                                <a asp-controller="Authentication" asp-action="ForgotPassword" class="text-decoration-none">Forgot password?</a>
+                            </div>
+                            <hr class="my-4">
+                            <div class="text-center">
+                                <p class="mb-3">Or login with</p>
+                                <div class="social-login">
+                                    <button class="btn btn-outline-primary me-2"><i class="fa fa-google"></i> Google</button>
+                                    <button class="btn btn-outline-primary"><i class="fa fa-facebook-f"></i> Facebook</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
 
 @if (ViewBag.Message != null)
 {

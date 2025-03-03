@@ -2,31 +2,121 @@
     ViewData["Title"] = "RoleManaging";
 }
 
-@model List<YouthVoice.Models.UserModel>
+@model List<YouthVoice.Models.UserRoleMangement>
 
-<h2>Promote Viewers to Editors</h2>
+<br /><br /><br />
+<main class="m-4">
+    <!-- Sidebar -->
+    <partial name="Shared/_AdminLayout" />
 
-<table border="1" cellpadding="10" class="align-content-center table">
-    <thead>
-        <tr>
-            <th>Email</th>
-            <th>Role</th>
-            <th>Action</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var user in Model)
-        {
-            <tr>
-                <td>@user.Email</td>
-                <td>@user.Role</td>
-                <td>
-                    <form asp-action="PromoteToEditor" method="post">
-                        <input type="hidden" name="email" value="@user.Email" />
-                        <button class="btn-primary rounded-3" type="submit">Promote to Editor</button>
-                    </form>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+    <!-- Main Content -->
+    <div class="admin-main">
+        <!-- Content -->
+        <div class="admin-content">
+            <div class="container-fluid">
+
+                <h2>Повишаване на потребител до модератор</h2> <br />
+
+                <div style="max-height: auto; overflow-y: auto;">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Имейл</th>
+                                <th>Роля</th>
+                                <th>Повишаване</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var user in Model)
+                            {
+                                if (user.Role == "viewer")
+                                {
+                                    <tr>
+                                        <td>@user.Email</td>
+                                        <td>@user.Role</td>
+                                        <td>
+                                            <form asp-action="PromoteToEditor" method="post">
+                                                <input type="hidden" name="email" value="@user.Email" />
+                                                <button class="btn btn-primary rounded-3" type="submit">Повиши до модератор</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="container-fluid">
+
+                <h2>Отнемане на модераторски права</h2> <br />
+
+                <div style="max-height: auto; overflow-y: auto;">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Имейл</th>
+                                <th>Роля</th>
+                                <th>Повишаване</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var user in Model)
+                            {
+                                if (user.Role == "editor")
+                                {
+                                    <tr>
+                                        <td>@user.Email</td>
+                                        <td>@user.Role</td>
+                                        <td>
+                                            <form asp-action="DemoteToViewer" method="post">
+                                                <input type="hidden" name="email" value="@user.Email" />
+                                                <button class="btn btn-primary rounded-3" type="submit">Понижи до обикновен потребител</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="container-fluid">
+
+                <h2>Изтриване на потребител</h2> <br />
+
+                <div style="max-height: auto; overflow-y: auto;">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Имейл</th>
+                                <th>Роля</th>
+                                <th>Повишаване</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var user in Model)
+                            {
+                                <tr>
+                                    <td>@user.Email</td>
+                                    <td>@user.Role</td>
+                                    <td>
+                                        <form asp-action="DeleteUser" method="post">
+                                            <input type="hidden" name="email" value="@user.Email" />
+                                            <button class="btn btn-primary rounded-3" type="submit">Изтрий потребител</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <p style="color:darkred;">@ViewBag.Message</p>
+    }
+</main>

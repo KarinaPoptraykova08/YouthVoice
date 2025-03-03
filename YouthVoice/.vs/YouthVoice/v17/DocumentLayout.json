@@ -3,65 +3,153 @@
   "WorkspaceRootPath": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|c:\\users\\yanis\\documents\\\u0437\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\youthvoice\\youthvoice\\youthvoice\\models\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|solutionrelative:youthvoice\\models\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|c:\\users\\yanis\\documents\\\u0437\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\youthvoice\\youthvoice\\youthvoice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|solutionrelative:youthvoice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|c:\\users\\yanis\\documents\\\u0437\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\youthvoice\\youthvoice\\youthvoice\\controllers\\administratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|solutionrelative:youthvoice\\controllers\\administratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|c:\\users\\yanis\\documents\\\u0437\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\youthvoice\\youthvoice\\youthvoice\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|solutionrelative:youthvoice\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|c:\\users\\yanis\\documents\\\u0437\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\youthvoice\\youthvoice\\youthvoice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|solutionrelative:youthvoice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|c:\\users\\yanis\\documents\\\u0437\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\youthvoice\\youthvoice\\youthvoice\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|solutionrelative:youthvoice\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|c:\\users\\yanis\\documents\\\u0437\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\youthvoice\\youthvoice\\youthvoice\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|solutionrelative:youthvoice\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|c:\\users\\yanis\\documents\\\u0437\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\youthvoice\\youthvoice\\youthvoice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|solutionrelative:youthvoice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|c:\\users\\yanis\\documents\\\u0437\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\youthvoice\\youthvoice\\youthvoice\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|solutionrelative:youthvoice\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|c:\\users\\yanis\\documents\\\u0437\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\youthvoice\\youthvoice\\youthvoice\\views\\moderator\\createanevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4892220B-A373-40DF-BF02-B8F365801F47}|YouthVoice\\YouthVoice.csproj|solutionrelative:youthvoice\\views\\moderator\\createanevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 296,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "stylesheet.css",
+              "DocumentMoniker": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\stylesheet.css",
+              "RelativeDocumentMoniker": "YouthVoice\\wwwroot\\css\\stylesheet.css",
+              "ToolTip": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\stylesheet.css",
+              "RelativeToolTip": "YouthVoice\\wwwroot\\css\\stylesheet.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-03T11:04:02.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "YouthVoice\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "YouthVoice\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-03T11:04:01.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\Models\\EmailService.cs",
-              "RelativeDocumentMoniker": "YouthVoice\\Models\\EmailService.cs",
-              "ToolTip": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\Models\\EmailService.cs",
-              "RelativeToolTip": "YouthVoice\\Models\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T17:18:25.759Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "YouthVoice\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "YouthVoice\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAqwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T10:48:05.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AdministratorController.cs",
-              "DocumentMoniker": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\Controllers\\AdministratorController.cs",
-              "RelativeDocumentMoniker": "YouthVoice\\Controllers\\AdministratorController.cs",
-              "ToolTip": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\Controllers\\AdministratorController.cs",
-              "RelativeToolTip": "YouthVoice\\Controllers\\AdministratorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAB/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:17:33.321Z",
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "YouthVoice\\wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "YouthVoice\\wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-02T16:46:59.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\Program.cs",
-              "RelativeDocumentMoniker": "YouthVoice\\Program.cs",
-              "ToolTip": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\Program.cs",
-              "RelativeToolTip": "YouthVoice\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:49:59.055Z",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "YouthVoice\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "YouthVoice\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T16:43:38.362Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "YouthVoice\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "YouthVoice\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAACvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T16:24:25.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateAnEvent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\Views\\Moderator\\CreateAnEvent.cshtml",
+              "RelativeDocumentMoniker": "YouthVoice\\Views\\Moderator\\CreateAnEvent.cshtml",
+              "ToolTip": "C:\\Users\\Yanis\\Documents\\\u0417\u0430 \u0443\u0447\u0438\u043B\u0438\u0449\u0435\\11 \u043A\u043B\u0430\u0441\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430\\YouthVoice\\YouthVoice\\YouthVoice\\Views\\Moderator\\CreateAnEvent.cshtml",
+              "RelativeToolTip": "YouthVoice\\Views\\Moderator\\CreateAnEvent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T15:28:44.362Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 104,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

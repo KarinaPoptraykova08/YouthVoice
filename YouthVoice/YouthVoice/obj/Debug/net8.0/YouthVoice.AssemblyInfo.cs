@@ -11,12 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-YouthVoice-52dfd9ff-d5e6-40e9-97c8-d873baebcedf")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("YouthVoice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+331c329dc8cc5e08fcd03e72dcc75ea96c10dacb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c100cf1cc5da5c34d6a4a4b562224f5856760d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("YouthVoice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YouthVoice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

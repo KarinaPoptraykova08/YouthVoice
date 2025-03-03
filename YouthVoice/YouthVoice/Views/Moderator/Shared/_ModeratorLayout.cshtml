@@ -1,0 +1,43 @@
+﻿<style>
+    footer {
+        display: none;
+    }
+</style>
+
+<div class="admin-sidebar h-100 mt-lg-5">
+    <div class="sidebar-user mt-md-5">
+        <img src="~/images/Moderator/editor-pfp.png" alt="Moderator" class="user-avatar">
+        <div class="user-info">
+            <h6 class="user-name">@User.Identity.Name</h6>
+            <span class="user-role">Модератор</span>
+        </div>
+    </div>
+    <ul class="sidebar-nav">
+        <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+                <i class="fa fa-dashboard"></i>
+                <span>Tабло за управление</span>
+            </a>
+        </li>
+        <li class="sidebar-item">
+            <a asp-action="CreateAnEvent" class="sidebar-link">
+                <i class="fa fa-users"></i>
+                <span>Създаване на събитие</span>
+            </a>
+        </li>
+        <li class="sidebar-item">
+            <a href="admin-organizations.html" class="sidebar-link">
+                <i class="fa fa-building"></i>
+                <span>Управление на събитията</span>
+            </a>
+        </li>
+        <li class="sidebar-item mt-auto">
+            <form asp-controller="Authentication" asp-action="SignOut" method="post">
+                <button class="btn btn-link sidebar-link w-100">
+                    <i class="fa fa-sign-out"></i>
+                    <span>Излез</span>
+                </button>
+            </form>
+        </li>
+    </ul>
+</div>

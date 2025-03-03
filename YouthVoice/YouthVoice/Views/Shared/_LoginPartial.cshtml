@@ -1,45 +1,41 @@
-﻿@using Microsoft.AspNetCore.Identity
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
-
-<ul class="navbar-nav">
+﻿<ul class="navbar-nav ms-auto">
     @if (User.Identity?.IsAuthenticated ?? false)
     {
-        <li class="nav-item">
-            <p class="nav-link text-dark">Hello @User.Identity?.Name!</p>
+        <li class="nav-item align-middle m-0">
+            <p class="nav-link bg-transparent border-0 align-middle m-0">Hello @User.Identity?.Name!</p>
         </li>
 
         if (User.IsInRole("editor"))
         {
-            <li>
-                <form asp-controller="Moderator" asp-action="ModeratorPage">
-                    <button type="submit" class="nav-link btn btn-link text-dark">Moderator</button>
+            <li class="nav-item">
+                <form asp-controller="Moderator" asp-action="ModeratorDashboard" class="nav-link border-0 p-1">
+                    <button type="submit" class="nav-link bg-transparent border-0 p-1">Модераторски панел</button>
                 </form>
             </li>
         }
         else if (User.IsInRole("owner")) 
         {
-            <li>
-                <form asp-controller="Administrator" asp-action="RoleManaging">
-                    <button type="submit" class="nav-link btn btn-link text-dark">RoleManaging</button>
+            <li class="nav-item">
+                <form asp-controller="Administrator" asp-action="AdminDashboard" class="nav-link p-1">
+                    <button type="submit" class="nav-link bg-transparent border-0 p-1">Административен панел</button>
                 </form>
             </li>
         }
 
-        <li class="nav-item">
-            <form asp-controller="Authentication" asp-action="SignOut" method="post">
-                <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+        <li class="nav-item align-middle">
+            <form asp-controller="Authentication" asp-action="SignOut" method="post" class="align-middle">
+                <button type="submit" class="nav-link btn btn-link align-middle">Излез</button>
             </form>
         </li>
     }
     else
     {
         <li class="nav-item">
-            <a class="nav-link text-dark" asp-controller="Authentication" asp-action="Register" class="btn btn-primary">Register</a>
+            <a class="nav-link" asp-controller="Authentication" asp-action="Register">Регистрация</a>
         </li>
 
         <li class="nav-item">
-            <a class="nav-link text-dark" asp-controller="Authentication" asp-action="SignIn" class="btn btn-primary">Log in</a>
+            <a class="nav-link" asp-controller="Authentication" asp-action="SignIn">Вход</a>
         </li>
     }
 </ul>

@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using YouthVoice.Data;
-using FirebaseAdmin;
+﻿using FirebaseAdmin;
 using Google.Apis.Auth.OAuth2;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using YouthVoice.Models;
+using YouthVoice.Data;
+using Microsoft.EntityFrameworkCore;
+using Google;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,14 +14,12 @@ FirebaseApp.Create(new AppOptions()
     Credential = GoogleCredential.FromFile("wwwroot/firebase-key.json")
 });
 
-// Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+builder.Services.AddDbContext<YouthVoiceDbContext>(options =>
+{
+    options.UseSqlServer("Server=LAPTOP-PHRSI0RL\\SQLEXPRESS;Database=YouthVoiceDb;Trusted_Connection=True;TrustServerCertificate=True");
+});
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddAuthorization();
@@ -32,21 +30,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LoginPath = "/Authentication/SignIn";
     });
 
-builder.Services.AddSingleton<FirebaseAuthService>();
-
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseMigrationsEndPoint();
-}
-else
-{
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
@@ -59,6 +43,5 @@ app.UseAuthentication();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-app.MapRazorPages();
 
 app.Run();

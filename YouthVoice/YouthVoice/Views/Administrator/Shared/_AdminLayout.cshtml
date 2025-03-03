@@ -1,0 +1,49 @@
+﻿<style>
+    footer {
+        display: none;
+    }
+</style>
+
+<div class="admin-sidebar h-100 mt-lg-5">
+    <div class="sidebar-user mt-md-5">
+        <img src="~/images/Admin/admin-icon.jpg" alt="Admin" class="user-avatar">
+        <div class="user-info">
+            <h6 class="user-name">@User.Identity.Name</h6>
+            <span class="user-role">Администратор</span>
+        </div>
+    </div>
+    <ul class="sidebar-nav">
+        <li class="sidebar-item">
+            <a asp-action="AdminDashboard" class="sidebar-link">
+                <i class="fa fa-dashboard"></i>
+                <span>Tабло за управление</span>
+            </a>
+        </li>
+        <li class="sidebar-item">
+            <a asp-action="RoleManaging" class="sidebar-link">
+                <i class="fa fa-users"></i>
+                <span>Управление ролите на потрепиделите</span>
+            </a>
+        </li>
+        <li class="sidebar-item">
+            <a href="admin-organizations.html" class="sidebar-link">
+                <i class="fa fa-building"></i>
+                <span>Управление на организации</span>
+            </a>
+        </li>   
+        @* <li class="sidebar-item">
+            <a href="admin-events.html" class="sidebar-link">
+                <i class="fa fa-calendar"></i>
+                <span>Управление на събития</span>
+            </a>
+        </li> *@
+        <li class="sidebar-item mt-auto">
+            <form asp-controller="Authentication" asp-action="SignOut" method="post">
+                <button class="btn btn-link sidebar-link w-100">
+                    <i class="fa fa-sign-out"></i>
+                    <span>Излез</span>
+                </button>
+            </form>
+        </li>
+    </ul>
+</div>
