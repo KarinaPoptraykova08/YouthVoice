@@ -26,12 +26,7 @@ main {
     margin-top: 4rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
     color: var(--dark-color);
 }
@@ -42,9 +37,9 @@ a {
     transition: var(--transition);
 }
 
-    a:hover {
-        color: var(--primary-dark);
-    }
+a:hover {
+    color: var(--primary-dark);
+}
 
 .section-title {
     position: relative;
@@ -53,16 +48,16 @@ a {
     color: var(--dark-color);
 }
 
-    .section-title::after {
-        content: "";
-        position: absolute;
-        left: 50%;
-        bottom: -10px;
-        transform: translateX(-50%);
-        width: 50px;
-        height: 3px;
-        background-color: var(--primary-color);
-    }
+.section-title::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background-color: var(--primary-color);
+}
 
 /* Navbar Styles */
 .navbar {
@@ -91,9 +86,9 @@ a {
     transition: var(--transition);
 }
 
-    .nav-link:hover {
-        color: var(--primary-color);
-    }
+.nav-link:hover {
+    color: var(--primary-color);
+}
 
 .login-btn,
 .signup-btn {
@@ -137,11 +132,11 @@ a {
     background-color: #000;
 }
 
-    .carousel-item img {
-        object-fit: cover;
-        height: 100%;
-        opacity: 0.7;
-    }
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    opacity: 0.7;
+}
 
 .carousel-caption {
     bottom: auto;
@@ -150,20 +145,21 @@ a {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
+    background-color: rgba(22, 22, 22, 0.6);
 }
 
-    .carousel-caption h1 {
-        font-size: 3.5rem;
-        font-weight: 800;
-        margin-bottom: 1rem;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
+.carousel-caption h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
-    .carousel-caption p {
-        font-size: 1.5rem;
-        margin-bottom: 2rem;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    }
+.carousel-caption p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
 
 /* Events Section */
 .events-row {
@@ -172,18 +168,18 @@ a {
     scrollbar-color: var(--primary-color) var(--light-color);
 }
 
-    .events-row::-webkit-scrollbar {
-        height: 6px;
-    }
+.events-row::-webkit-scrollbar {
+    height: 6px;
+}
 
-    .events-row::-webkit-scrollbar-track {
-        background: var(--light-color);
-    }
+.events-row::-webkit-scrollbar-track {
+    background: var(--light-color);
+}
 
-    .events-row::-webkit-scrollbar-thumb {
-        background-color: var(--primary-color);
-        border-radius: 20px;
-    }
+.events-row::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
 
 .event-card {
     transition: var(--transition);
@@ -195,15 +191,15 @@ a {
     min-width: 280px;
 }
 
-    .event-card:hover {
-        transform: translateY(-5px);
-        box-shadow: var(--box-shadow);
-    }
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--box-shadow);
+}
 
-    .event-card .card-img-top {
-        height: 180px;
-        object-fit: cover;
-    }
+.event-card .card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
 
 .event-date,
 .event-time,
@@ -213,12 +209,12 @@ a {
     margin-bottom: 0.5rem;
 }
 
-    .event-date i,
-    .event-time i,
-    .event-org i {
-        color: var(--primary-color);
-        margin-right: 0.5rem;
-    }
+.event-date i,
+.event-time i,
+.event-org i {
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+}
 
 /* Contact Form */
 .card.shadow {
@@ -232,10 +228,10 @@ a {
     padding: 0.75rem;
 }
 
-    .form-control:focus {
-        box-shadow: 0 0 0 0.2rem rgba(78, 84, 200, 0.25);
-        border-color: var(--primary-color);
-    }
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(78, 84, 200, 0.25);
+    border-color: var(--primary-color);
+}
 
 /* Organization Cards */
 .org-card {
@@ -349,6 +345,10 @@ footer img {
     footer img {
         display: none;
     }
+
+    .contact-us-img {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -376,6 +376,10 @@ footer img {
     footer img {
         display: none;
     }
+
+    .contact-us-img {
+        display: none;
+    }
 }
 
 @media (max-width: 576px) {
@@ -396,6 +400,10 @@ footer img {
     }
 
     .org-logo {
+        display: none;
+    }
+
+    .contact-us-img {
         display: none;
     }
 }

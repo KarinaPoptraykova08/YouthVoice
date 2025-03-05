@@ -1,0 +1,120 @@
+﻿@{
+    ViewData["Title"] = "CreateOrganisation";
+}
+@model YouthVoice.Data.Organisation
+
+<main>
+    <!-- Sidebar -->
+    <partial name="Shared/_AdminLayout" />
+
+    <div class="admin-main">
+        <!-- Content -->
+        <div class="admin-content">
+            <div class="container-fluid">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h1 class="admin-page-title">Създайте нова организация</h1>
+                </div>
+
+                <!-- Event Form -->
+                <div class="card border-0 shadow mb-4">
+                    <div class="card-body">
+                        <form id="form" asp-action="CreateOrganisation" enctype="multipart/form-data">
+                            <div class="row mb-4">
+                                <div class="col-lg-8">
+                                    <div class="mb-3">
+                                        <label for="eventTitle" class="form-label">Име <span class="text-danger">*</span></label>
+                                        <input asp-for=Name type="text" class="form-control" id="orgName" placeholder="Задайте име..." required>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="eventDescription" class="form-label">Кратко описание <span class="text-danger">*</span></label>
+                                        <div class="form-text">Кратко описание на събитето, което да се използва за постера на събитието. (Не повече от 180 символа)</div>
+                                        <textarea asp-for=ShortDescription class="form-control" rows="6" placeholder="Опишете събитието..." maxlength="180" id="shortDescription" oninput="updateCounter()" required></textarea>
+                                        <p class="counter"><span id="charCount">0</span>/180 characters</p>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="eventTitle" class="form-label">Социални мрежи</label>
+                                        <input asp-for=SocialMedia type="text" class="form-control" id="socialMediaLink" placeholder="Въведете линк към социална мрежа">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="card border-0 shadow-sm">
+                                        <div class="card-header bg-light">
+                                            <h5 class="mb-0">Детайли</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="mb-3">
+                                                <label for="eventOrganization" class="form-label">Град <span class="text-danger">*</span></label>
+                                                <select asp-for=CityId class="form-select" id="orgCity" required>
+                                                    <option value="">Изберете град</option>
+                                                    <option value="1">Благоевград</option>
+                                                    <option value="2">Бургас</option>
+                                                    <option value="3">Варна</option>
+                                                    <option value="4">Велико Търново</option>
+                                                    <option value="5">Видин</option>
+                                                    <option value="6">Враца</option>
+                                                    <option value="7">Габрово</option>
+                                                    <option value="8">Добрич</option>
+                                                    <option value="9">Кърджали</option>
+                                                    <option value="10">Кюстендил</option>
+                                                    <option value="11">Ловеч</option>
+                                                    <option value="12">Монтана</option>
+                                                    <option value="13">Пазарджик</option>
+                                                    <option value="14">Перник</option>
+                                                    <option value="15">Плевен</option>
+                                                    <option value="16">Пловдив</option>
+                                                    <option value="17">Разград</option>
+                                                    <option value="18">Русе</option>
+                                                    <option value="19">Силистра</option>
+                                                    <option value="20">Сливен</option>
+                                                    <option value="21">Смолян</option>
+                                                    <option value="22">София</option>
+                                                    <option value="23">Стара Загора</option>
+                                                    <option value="24">Търговище</option>
+                                                    <option value="25">Харсково</option>
+                                                    <option value="26">Шумен</option>
+                                                    <option value="27">Ямбол</option>
+                                                    <option value="28">Друга област</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label class="form-label">Имейл <span class="text-danger">*</span></label>
+                                                <input asp-for=Email type="email" class="form-control" id="orgEmail" placeholder="Въведете имейл" required>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label class="form-label">Лого <span class="text-danger">*</span></label>
+                                                <input asp-for=File type="file" class="form-control" id="orgFeaturedImage" accept="image/*" required>
+                                                <span asp-validation-for="File" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+
+                            <div class="d-flex justify-content-between">
+                                <button type="button" class="btn btn-outline-secondary" id="cancelBtn">
+                                    <i class="fa fa-times me-1"></i> Отказ
+                                </button>
+                                <div>
+                                    <button type="submit" class="btn btn-primary" id="submitBtn">
+                                        <i class="fa fa-paper-plane me-1"></i> Публикувай
+                                    </button>
+                                </div>
+                            </div> <br />
+                            @if (ViewBag.ErrorMessage != null)
+                            {
+                                <p style="color:darkred;">@ViewBag.ErrorMessage</p>
+                            }
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="~/js/design.js"></script>

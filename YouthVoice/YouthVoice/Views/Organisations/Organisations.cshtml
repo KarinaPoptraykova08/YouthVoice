@@ -1,6 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Organisations";
 }
+@model List<YouthVoice.Data.Organisation>
 
 <main>
     <!-- Page Header -->
@@ -11,11 +12,11 @@
                     <h1 class="display-4 fw-bold"><span class="brand-text">Младежки</span> организации</h1>
                     <p class="lead">Открийте и се свържете с вдъхновяващи младежки организации, тласкащи страната към по-доброто ѝ бъдеще.</p>
                 </div>
-                    <div class="col-lg-6">
-                        <div class="org-logo">
-                            <img src="~/youthvoicelogo.png" class="img-fluid rounded w-50 h-50 d-block ms-auto me-5" alt="Organizations">
-                        </div>
+                <div class="col-lg-6">
+                    <div class="org-logo">
+                        <img src="~/youthvoicelogo.png" class="img-fluid rounded w-50 h-50 d-block ms-auto me-5" alt="Organizations">
                     </div>
+                </div>
             </div>
         </div>
     </header>
@@ -31,23 +32,43 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <select class="form-select" id="cityFilter">
-                        <option value="">Всички градове</option>
-                        <option value="София">София</option>
-                        <option value="Пловдив">Пловдив</option>
-                        <option value="Варна">Варна</option>
-                        <option value="Бургас">Бургас</option>
-                        <option value="Русе">Русе</option>
-                        <option value="Велико Търново">Велико Търново</option>
-                        <option value="Стара Загора">Стара Загора</option>
-                        <option value="...">...</option>
+                    <select class="form-select" id="orgCity" required>
+                        <option value="">Изберете град</option>
+                        <option value="1">Благоевград</option>
+                        <option value="2">Бургас</option>
+                        <option value="3">Варна</option>
+                        <option value="4">Велико Търново</option>
+                        <option value="5">Видин</option>
+                        <option value="6">Враца</option>
+                        <option value="7">Габрово</option>
+                        <option value="8">Добрич</option>
+                        <option value="9">Кърджали</option>
+                        <option value="10">Кюстендил</option>
+                        <option value="11">Ловеч</option>
+                        <option value="12">Монтана</option>
+                        <option value="13">Пазарджик</option>
+                        <option value="14">Перник</option>
+                        <option value="15">Плевен</option>
+                        <option value="16">Пловдив</option>
+                        <option value="17">Разград</option>
+                        <option value="18">Русе</option>
+                        <option value="19">Силистра</option>
+                        <option value="20">Сливен</option>
+                        <option value="21">Смолян</option>
+                        <option value="22">София</option>
+                        <option value="23">Стара Загора</option>
+                        <option value="24">Търговище</option>
+                        <option value="25">Харсково</option>
+                        <option value="26">Шумен</option>
+                        <option value="27">Ямбол</option>
+                        <option value="28">Друга област</option>
                     </select>
                 </div>
                 <div class="col-md-3">
                     <select class="form-select" id="categoryFilter">
                         <option value="">Всички категории</option>
                         <option value="Доброволчество">Доброволчество</option>
-                        <option value="Състезания">Състезания</option>
+                        <option value="Състезания">Състезания/Конкурси</option>
                         <option value="Срещи">Срещи</option>
                         <option value="Обучения">Обучения</option>
                         <option value="Други">Други</option>
@@ -64,168 +85,31 @@
     <section class="organizations-list py-5">
         <div class="container">
             <div class="row" id="organizationsContainer">
-                <!-- Organization 1 -->
-                <div class="col-md-6 col-lg-4 mb-4" data-city="Capital City" data-category="Leadership">
-                    <div class="card org-card h-100">
-                        <img src="https://source.unsplash.com/random/600x400/?team" class="card-img-top" alt="Organization">
-                        <div class="card-body">
-                            <h5 class="card-title">Младежки омбудсман</h5>
-                            <p class="card-text">Младежкият омбудсман защитава правата и интересите на младите хора, насърчава гражданското участие и съдейства за решаването на младежки проблеми чрез диалог с институциите.</p>
-                            <div class="org-meta">
-                                <div class="org-location mb-2">
-                                    <i class="fa fa-map-marker-alt"></i> Бургас
-                                </div>
-                                <div class="org-members">
-                                    <i class="fa fa-users"></i> 2 членове
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-footer bg-transparent border-top-0">
-                            <a href="organization-details.html?id=1" class="btn btn-outline-primary">View Profile</a>
-                        </div>
-                    </div>
-                </div>
+                @{
+                    foreach (var org in Model) 
+                    {
+                        // Organization card
+                        <div class="col-md-6 col-lg-4 mb-4" data-city="Capital City" data-category="Leadership">
+                            <div class="card org-card h-100">
+                                <img src="~/@org.ImagePath" class="card-img-top" alt="Организация">
+                                <div class="card-body">
+                                    <h5 class="card-title">@org.Name</h5>
+                                    <p class="card-text">@org.ShortDescription</p>
 
-                <!-- Organization 2 -->
-                <div class="col-md-6 col-lg-4 mb-4" data-city="Tech Valley" data-category="Technology">
-                    <div class="card org-card h-100">
-                        <img src="https://source.unsplash.com/random/600x400/?technology" class="card-img-top" alt="Organization">
-                        <div class="card-body">
-                            <h5 class="card-title">Tech Youth Network</h5>
-                            <p class="card-text">Bridging the digital divide by providing technology education and resources to underserved youth.</p>
-                            <div class="org-meta">
-                                <div class="org-location mb-2">
-                                    <i class="fa fa-map-marker-alt"></i> Tech Valley
+                                    <div class="org-meta">
+                                        <div class="org-location mb-2">
+                                            <i class="fa fa-map-pin"></i> @org.City.Name
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="org-category mb-2">
-                                    <i class="fa fa-tag"></i> Technology
-                                </div>
-                                <div class="org-members">
-                                    <i class="fa fa-users"></i> 180+ members
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a asp-controller="Organisations" asp-action="OrganisationDetails" asp-route-id="@org.OrganisationId" class="btn btn-outline-primary">Подробности</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-footer bg-transparent border-top-0">
-                            <a href="organization-details.html?id=2" class="btn btn-outline-primary">View Profile</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Organization 3 -->
-                <div class="col-md-6 col-lg-4 mb-4" data-city="Riverside" data-category="Environment">
-                    <div class="card org-card h-100">
-                        <img src="https://source.unsplash.com/random/600x400/?environment" class="card-img-top" alt="Organization">
-                        <div class="card-body">
-                            <h5 class="card-title">Green Youth Movement</h5>
-                            <p class="card-text">Empowering young people to take action on environmental issues through education and activism.</p>
-                            <div class="org-meta">
-                                <div class="org-location mb-2">
-                                    <i class="fa fa-map-marker-alt"></i> Riverside
-                                </div>
-                                <div class="org-category mb-2">
-                                    <i class="fa fa-tag"></i> Environment
-                                </div>
-                                <div class="org-members">
-                                    <i class="fa fa-users"></i> 320+ members
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-footer bg-transparent border-top-0">
-                            <a href="organization-details.html?id=3" class="btn btn-outline-primary">View Profile</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Organization 4 -->
-                <div class="col-md-6 col-lg-4 mb-4" data-city="Coastal Town" data-category="Arts">
-                    <div class="card org-card h-100">
-                        <img src="https://source.unsplash.com/random/600x400/?art" class="card-img-top" alt="Organization">
-                        <div class="card-body">
-                            <h5 class="card-title">Arts & Culture Youth Club</h5>
-                            <p class="card-text">Promoting artistic expression and cultural awareness among youth through various creative programs.</p>
-                            <div class="org-meta">
-                                <div class="org-location mb-2">
-                                    <i class="fa fa-map-marker-alt"></i> Coastal Town
-                                </div>
-                                <div class="org-category mb-2">
-                                    <i class="fa fa-tag"></i> Arts & Culture
-                                </div>
-                                <div class="org-members">
-                                    <i class="fa fa-users"></i> 150+ members
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-footer bg-transparent border-top-0">
-                            <a href="organization-details.html?id=4" class="btn btn-outline-primary">View Profile</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Organization 5 -->
-                <div class="col-md-6 col-lg-4 mb-4" data-city="Capital City" data-category="Education">
-                    <div class="card org-card h-100">
-                        <img src="https://source.unsplash.com/random/600x400/?education" class="card-img-top" alt="Organization">
-                        <div class="card-body">
-                            <h5 class="card-title">Future Leaders Network</h5>
-                            <p class="card-text">Providing educational resources and career guidance to help youth prepare for their future.</p>
-                            <div class="org-meta">
-                                <div class="org-location mb-2">
-                                    <i class="fa fa-map-marker-alt"></i> Capital City
-                                </div>
-                                <div class="org-category mb-2">
-                                    <i class="fa fa-tag"></i> Education
-                                </div>
-                                <div class="org-members">
-                                    <i class="fa fa-users"></i> 200+ members
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-footer bg-transparent border-top-0">
-                            <a href="organization-details.html?id=5" class="btn btn-outline-primary">View Profile</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Organization 6 -->
-                <div class="col-md-6 col-lg-4 mb-4" data-city="Mountain View" data-category="Sports">
-                    <div class="card org-card h-100">
-                        <img src="https://source.unsplash.com/random/600x400/?sports" class="card-img-top" alt="Organization">
-                        <div class="card-body">
-                            <h5 class="card-title">Youth Sports Alliance</h5>
-                            <p class="card-text">Promoting physical activity and teamwork through accessible sports programs for all youth.</p>
-                            <div class="org-meta">
-                                <div class="org-location mb-2">
-                                    <i class="fa fa-map-marker-alt"></i> Mountain View
-                                </div>
-                                <div class="org-category mb-2">
-                                    <i class="fa fa-tag"></i> Sports & Recreation
-                                </div>
-                                <div class="org-members">
-                                    <i class="fa fa-users"></i> 280+ members
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-footer bg-transparent border-top-0">
-                            <a href="organization-details.html?id=6" class="btn btn-outline-primary">View Profile</a>
-                        </div>
-                    </div>
-                </div>
+                    }
+                }
             </div>
-
-            <!-- Pagination -->
-            <nav aria-label="Organizations pagination" class="mt-5">
-                <ul class="pagination justify-content-center">
-                    <li class="page-item disabled">
-                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-                    </li>
-                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">Next</a>
-                    </li>
-                </ul>
-            </nav>
         </div>
     </section>
 </main>

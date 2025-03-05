@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Details";
+}
+@model YouthVoice.Data.Organisation
+
+<main>
+    <!-- Page Header -->
+    <header class="page-header py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    @{
+                        <h1 class="display-4 fw-bold brand-text">@Model.Name</h1>
+                        <p class="lead">@Model.ShortDescription</p>
+
+                        <p>
+                            <i class="fa fa-map-pin pe-1"></i>
+                            @Model.City.Name
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope pe-1"></i>
+                            @Model.Email
+                        </p>
+
+                        if (Model.SocialMedia != null)
+                        {
+                            <p>
+                                <i class="fa fa-users"></i>
+                                <a href="@Model.SocialMedia" class="link-primary text-decoration-underline" target="_blank">Социални мрежи</a>
+                            </p>
+                        }
+                    }                    
+                </div>               
+
+                <div class="col-lg-6">
+                    <div class="org-logo">
+                        <img src="~/@Model.ImagePath" class="img-fluid rounded w-50 h-50 d-block ms-auto me-5 rounded-circle" alt="Organizations">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <partial name="Events" />
+</main>

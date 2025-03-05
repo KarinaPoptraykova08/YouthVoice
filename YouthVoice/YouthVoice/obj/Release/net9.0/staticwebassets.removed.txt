@@ -1,0 +1,4 @@
+C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\YouthVoice\wwwroot\css\stylesheet.css
+C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\YouthVoice\wwwroot\images\Home\community.jpg
+C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\YouthVoice\wwwroot\images\Home\speak.jpg
+C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\YouthVoice\wwwroot\images\Home\voice.jpg

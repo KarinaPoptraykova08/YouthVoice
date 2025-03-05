@@ -34,6 +34,11 @@ namespace YouthVoice.Controllers
             return View();
         }
 
+        public IActionResult FAQ()
+        {
+            return View();
+        }
+
         public async Task<IActionResult> SendFeedback(EmailService emailService)
         {
             try

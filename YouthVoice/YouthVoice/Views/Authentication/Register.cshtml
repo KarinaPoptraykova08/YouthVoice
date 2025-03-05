@@ -18,22 +18,22 @@ else if (ViewData["Success"] != null)
                 <div class="col-md-6 col-lg-5">
                     <div class="card shadow border-0 rounded-lg">
                         <div class="card-header bg-white text-center py-5 pb-0 border-0">
-                            <h3 class="mb-0">Sign up to YouthVoice</h3>
+                            <h3 class="mb-0">Регистрация</h3>
                         </div>
                         <div class="card-body p-4 p-md-5">
                             <form id="loginForm" asp-action="Register" asp-controller="Authentication">
                                 <div class="mb-4">
-                                    <label for="username" class="form-label">Username</label>
+                                    <label for="username" class="form-label">Потребителско име</label>
                                     <div class="input-group">
                                         <span class="input-group-text"><i class="fa fa-user-circle"></i></span>
-                                        <input class="form-control" type="text" name="username" placeholder="username" asp-for="Username" required>
+                                        <input class="form-control" type="text" name="username" placeholder="Потребителско име" asp-for="Username" required>
                                     </div>
                                 </div>
                                 <div class="mb-4">
-                                    <label for="email" class="form-label">Email address</label>
+                                    <label for="email" class="form-label">Имейл адрес</label>
                                     <div class="input-group">
                                         <span class="input-group-text"><i class="fa fa-envelope"></i></span>
-                                        <input class="form-control" type="text" name="email" placeholder="name@example.com" asp-for="Email" required>
+                                        <input class="form-control" type="email" name="email" placeholder="Имейл адрес" asp-for="Email" required>
                                     </div>
                                     @if (ViewBag.EmailError != null)
                                     {
@@ -41,30 +41,23 @@ else if (ViewData["Success"] != null)
                                     }
                                 </div>
                                 <div class="mb-4">
-                                    <label for="password" class="form-label">Password</label>
+                                    <label for="password" class="form-label">Парола</label>
                                     <div class="input-group">
                                         <span class="input-group-text"><i class="fa fa-lock"></i></span>
-                                        <input class="form-control" type="password" name="password" placeholder="Password" asp-for="Password" required>
+                                        <input class="form-control" type="password" name="password" placeholder="Парола" asp-for="Password" required>
                                     </div>
                                     @if (ViewBag.PasswordError != null)
                                     {
                                         <p style="color:red;">@ViewBag.PasswordError</p>
                                     }
                                 </div>
-                                <div class="mb-4 form-check">
-                                    <input type="checkbox" class="form-check-input" id="rememberMe">
-                                    <label class="form-check-label" for="rememberMe">Remember me</label>
-                                </div>
                                 <div class="d-grid">
-                                    <button type="submit" class="btn btn-primary btn-lg">Login</button>
+                                    <button type="submit" class="btn btn-primary btn-lg">Регистрирайте се</button>
                                 </div>
                             </form>
-                            <div class="text-center mt-4">
-                                <a asp-controller="Authentication" asp-action="ForgotPassword" class="text-decoration-none">Forgot password?</a>
-                            </div>
                             <hr class="my-4">
                             <div class="text-center">
-                                <p class="mb-3">Or login with</p>
+                                <p class="mb-3">Или влез с</p>
                                 <div class="social-login">
                                     <button class="btn btn-outline-primary me-2"><i class="fa fa-google"></i> Google</button>
                                     <button class="btn btn-outline-primary"><i class="fa fa-facebook-f"></i> Facebook</button>

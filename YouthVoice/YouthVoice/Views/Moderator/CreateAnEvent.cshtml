@@ -1,7 +1,7 @@
 ﻿@{
     ViewData["Title"] = "MaderatorPage";
 }
-@model YouthVoice.Data.Event
+@model YouthVoice.Data.OrganisationEvent
 
 
 <main>
@@ -21,24 +21,24 @@
                 <!-- Event Form -->
                 <div class="card border-0 shadow mb-4">
                     <div class="card-body">
-                        <form id="eventForm">
+                        <form asp-controller="Moderator" asp-action="CreateAnEvent" enctype="multipart/form-data" id="form">
                             <div class="row mb-4">
                                 <div class="col-lg-8">
                                     <div class="mb-3">
                                         <label for="eventTitle" class="form-label">Заглавие <span class="text-danger">*</span></label>
-                                        <input type="text" class="form-control" id="eventTitle" placeholder="Задайте заглавие..." required>
+                                        <input asp-for=Event.Title type="text" class="form-control" id="eventTitle" placeholder="Задайте заглавие" required>
                                     </div>
 
                                     <div class="mb-3">
                                         <label for="eventDescription" class="form-label">Кратко описание <span class="text-danger">*</span></label>
                                         <div class="form-text">Кратко описание на събитето, което да се използва за постера на събитието. (Не повече от 180 символа)</div>
-                                        <textarea class="form-control" name="description" asp-for=Description rows="6" placeholder="Опишете събитието..." required maxlength="180" id="myTextarea" oninput="updateCounter()"></textarea>
+                                        <textarea asp-for=Event.ShortDescription class="form-control" rows="6" placeholder="Опишете събитието" required maxlength="180" id="shortDescription" oninput="updateCounter()"></textarea>
                                         <p class="counter"><span id="charCount">0</span>/180 characters</p>                                        
                                     </div>
 
                                     <div class="mb-3">
-                                        <label for="eventDescription" class="form-label">Описание <span class="text-danger">*</span></label>
-                                        <textarea class="form-control" name="description" asp-for=Description rows="12" placeholder="Опишете събитието..." required></textarea>
+                                        <label for="eventDescription" class="form-label">Подробно описание <span class="text-danger">*</span></label>
+                                        <textarea asp-for=Event.Description class="form-control" rows="12" placeholder="Опишете събитието" id="description" required></textarea>
                                         <div class="form-text">Изгответе подробно описание на събитието, включително дейности, лектори и какво могат да очакват присъстващите.</div>
                                     </div>
                                 </div>
@@ -51,51 +51,50 @@
                                         <div class="card-body">
                                             <div class="mb-3">
                                                 <label for="eventOrganization" class="form-label">Организация <span class="text-danger">*</span></label>
-                                                <select class="form-select" id="eventOrganization" required>
+                                                <select asp-for="OrganisationId" class="form-select" id="eventOrganization" required>
                                                     <option value="">Изберете организация</option>
-                                                    <option value="1">Младежки омбудсман</option>
-                                                    <option value="2">Младежки център "София"</option>
-                                                    <option value="3">Младежка асоциация "Пловдив"</option>
-                                                    <option value="4">Младежка инициатива "Варна"</option>
+                                                    <option value="1">Младежки омбудсман на Община Бургас</option>
+                                                    <option value="2">Градски ученически парламент - Велико Търново </option>
+                                                    <option value="3">test</option>
                                                 </select>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label for="eventCategory" class="form-label">Категория <span class="text-danger">*</span></label>
-                                                <select class="form-select" id="eventCategory" required>
+                                                <select asp-for=Event.Category class="form-select" id="eventCategory" required>
                                                     <option value="">Изберете категория</option>
-                                                    <option value="workshop">Доброволчество</option>
-                                                    <option value="conference">Състезания</option>
-                                                    <option value="seminar">Среши</option>
-                                                    <option value="networking">Обучения</option>
-                                                    <option value="volunteer">Други</option>
+                                                    <option value="Доброволчество">Доброволчество</option>
+                                                    <option value="Състезания/Конкурси">Състезания/Конкурси</option>
+                                                    <option value="Срещи">Срещи</option>
+                                                    <option value="Обучения">Обучения</option>
+                                                    <option value="Други">Други</option>
                                                 </select>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label for="eventDate" class="form-label">Дата <span class="text-danger">*</span></label>
-                                                <input type="text" class="form-control" id="eventDate" placeholder="Изберете дата" required>
+                                                <input asp-for="Event.Date" type="date" class="form-control" id="eventDate" placeholder="Изберете дата" required>
                                             </div>
 
                                             <div class="row mb-3">
                                                 <div class="col-6">
-                                                    <label for="eventStartTime" class="form-label">Час на започване</label>
-                                                    <input type="text" class="form-control" id="eventStartTime" placeholder="Час на започване" required>
+                                                    <label class="form-label">Започване</label>
+                                                    <input asp-for=Event.StartTime type="time" class="form-control" id="eventStartTime" placeholder="Час на започване" required>
                                                 </div>
                                                 <div class="col-6">
-                                                    <label for="eventEndTime" class="form-label">Час на приключване</label>
-                                                    <input type="text" class="form-control" id="eventEndTime" placeholder="Час на приключване" required>
+                                                    <label class="form-label">Приключване</label>
+                                                    <input asp-for=Event.EndTime type="time" class="form-control" id="eventEndTime" placeholder="Час на приключване" required>
                                                 </div>
                                             </div>
 
-                                            <div class="mb-3">
+                                            <div class="mb-3" id="eventType">
                                                 <label class="form-label d-block">Тип на провеждане <span class="text-danger">*</span></label>
                                                 <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="eventType" id="inPersonEvent" value="in_person" checked>
+                                                    <input asp-for=Event.InPersonOrOnline type="radio" class="form-check-input" id="inPersonEvent" value="in_person" checked>
                                                     <label class="form-check-label" for="inPersonEvent">Присъствено</label>
                                                 </div>
                                                 <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="eventType" id="onlineEvent" value="online">
+                                                    <input asp-for=Event.InPersonOrOnline type="radio" class="form-check-input" id="onlineEvent" value="online">
                                                     <label class="form-check-label" for="onlineEvent">Онлайн</label>
                                                 </div>
                                             </div>
@@ -108,18 +107,17 @@
                                 <div class="col-lg-8">
                                     <div class="mb-3">
                                         <label for="eventLocation" class="form-label">Локация <span class="text-danger">*</span></label>
-                                        <input type="text" class="form-control" id="eventLocation" placeholder="Въведете името на мястото" required>
+                                        <input asp-for=Event.Location type="text" class="form-control" id="eventLocation" placeholder="Въведете името на мястото" required>
                                     </div>
 
                                     <div class="mb-3">
                                         <label for="eventAddress" class="form-label">Адрес</label>
-                                        <textarea class="form-control" id="eventAddress" rows="3" placeholder="Въведете пълния адрес"></textarea>
+                                        <textarea asp-for=Event.Address class="form-control" id="eventAddress" rows="3" placeholder="Въведете пълния адрес"></textarea>
                                     </div>
 
-                                    <div class="mb-3">
+                                    <div class="mb-3" id="virtualMeetingLink" style="display: none;">
                                         <label for="eventVirtualLink" class="form-label">Линк за виртуална среща</label>
-                                        <input type="url" class="form-control" id="eventVirtualLink" placeholder="Въведете Zoom, Teams или друг URL адрес за среща">
-                                        <div class="form-text">Изисква се за онлайн събития.</div>
+                                        <input asp-for=Event.VirtualMeetingLink type="url" class="form-control" id="virtualMeetingLink" placeholder="Въведете Zoom, Teams или друг URL адрес за среща">
                                     </div>
                                 </div>
 
@@ -130,13 +128,27 @@
                                         </div>
                                         <div class="card-body">
                                             <div class="mb-3">
-                                                <label for="eventCapacity" class="form-label">Максимален капацитет</label>
-                                                <input type="number" class="form-control" id="eventCapacity" placeholder="Оставете празно за неограничено">
+                                                <label class="form-label">Максимален капацитет</label>
+                                                <input asp-for=Event.Capacity type="number" class="form-control" id="eventCapacity" placeholder="Въведете брой места">
                                             </div>
 
                                             <div class="mb-3">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="requireRegistration">
+                                                    <label class="form-check-label">
+                                                        Изисква се регистрация
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="mb-3" style="display: none;" id="registrationDeadline">
                                                 <label for="registrationDeadline" class="form-label">Краен срок за регистрация</label>
-                                                <input type="text" class="form-control" id="registrationDeadline" placeholder="Изберете крайна дата">
+                                                <input asp-for="Event.RegistrationDeadline" type="date" class="form-control" placeholder="Избери дата">
+                                            </div>
+
+                                            <div class="mb-3" style="display: none;" id="registrationLink">
+                                                <label class="form-label">Линк за регистрация</label>
+                                                <input asp-for=Event.RegistrationLink type="url" class="form-control" placeholder="Въведете линк за регистрация">
                                             </div>
                                         </div>
                                     </div>
@@ -152,14 +164,8 @@
                                         <div class="card-body">
                                             <div class="mb-3">
                                                 <label for="eventFeaturedImage" class="form-label">Основно изображение <span class="text-danger">*</span></label>
-                                                <input class="form-control" type="file" id="eventFeaturedImage" accept="image/*" required>
+                                                <input type="file" asp-for=Event.File class="form-control" id="eventFeaturedImage" accept="image/*" required>
                                                 <div class="form-text">Това ще бъде основното изображение, за вашето събитие. Препоръчителен размер: 1200 x 630 пиксела.</div>
-                                            </div>
-
-                                            <div class="mb-3">
-                                                <label for="eventGalleryImages" class="form-label">Допълнителни изображения</label>
-                                                <input class="form-control" type="file" id="eventGalleryImages" accept="image/*" multiple>
-                                                <div class="form-text">Можете да качите до 5 допълнителни изображения</div>
                                             </div>
                                         </div>
                                     </div>
@@ -171,63 +177,39 @@
                                     <i class="fa fa-times me-1"></i> Отказ
                                 </button>
                                 <div>
-                                    <button type="submit" class="btn btn-primary" id="submitEventBtn">
+                                    <button type="submit" class="btn btn-primary" id="submitBtn">
                                         <i class="fa fa-paper-plane me-1"></i> Публикувай
                                     </button>
                                 </div>
                             </div>
+                            @if (ViewBag.ErrorMessage != null)
+                            {
+                                <p style="color:darkred;">@ViewBag.ErrorMessage</p>
+                            }
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="~/js/design.js"></script>
     <script>
-        function updateCounter() {
-            let textarea = document.getElementById("myTextarea");
-            let count = textarea.value.length;
-            document.getElementById("charCount").textContent = count;
-        }
+        document.getElementById("requireRegistration").addEventListener("change", function() {
+            const registrationLink = document.getElementById("registrationLink");
+            const registrationDeadline = document.getElementById("registrationDeadline");
+            registrationDeadline.style.display = this.checked ? "block" : "none";
+            registrationLink.style.display = this.checked ? "block" : "none";
+        });
+        document.getElementById("onlineEvent").addEventListener("change", function() {
+            const virtualMeetingLink = document.getElementById("virtualMeetingLink");
+            virtualMeetingLink.style.display = "block";
+        });
+        document.getElementById("inPersonEvent").addEventListener("change", function() {
+            const virtualMeetingLink = document.getElementById("virtualMeetingLink");
+            virtualMeetingLink.style.display = "none";
+        });
     </script>
 </main>
-
-
-
-
-
-
-@* <main>
-    <section id="create-event" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Добави ново събитие</h2>
-            <form id="event-form" class="row g-3" asp-action="Create">
-                <div class="col-md-6">
-                    <label for="event-title" class="form-label">Заглавие на събитието</label>
-                    <input type="text" name="title" asp-for=Name class="form-control" placeholder="Например: Музикален фестивал">
-                </div>
-                <div class="col-md-6">
-                    <label for="event-date" class="form-label">Дата</label>
-                    <input type="date" name="date" asp-for=Date class="form-control">
-                </div>
-                <div class="col-md-6">
-                    <label for="event-location" class="form-label">Локация</label>
-                    <input type="text" name="location" asp-for=Location class="form-control" placeholder="Например: София">
-                </div>
-                <div class="col-md-6">
-                    <label for="event-image" class="form-label">Картинка</label>
-                    <input type="file" name="EventImage" accept="image/*" class="form-control" id="event-image">
-                </div>
-                <div class="col-12">
-                    <label for="event-description" class="form-label">Описание</label>
-                    <textarea class="form-control" name="description" asp-for=Description rows="5" placeholder="Опишете събитието..."></textarea>
-                </div>
-                <div class="col-12 text-center">
-                    <button type="submit" class="btn btn-primary w-50">Публикувай събитие</button>
-                </div>
-            </form>
-        </div>
-    </section>
-</main> *@
 
 @if (ViewBag.Message != null)
 {

@@ -9,11 +9,15 @@ namespace YouthVoice.Controllers
     public class ModeratorController : Controller
     {
         // Forbit link copying
-        private readonly YouthVoiceDbContext _youthvoiceDbContext;
+        private readonly YouthVoiceDbContext _dbContext;
+        private readonly SaveFileService _saveFileService;
+        private readonly FetchDataFromDbService _fetchDataFromDbService;
 
         public ModeratorController(YouthVoiceDbContext youthvoiceDbContext)
         {
-            _youthvoiceDbContext = youthvoiceDbContext;
+            _dbContext = youthvoiceDbContext;
+            _saveFileService = new SaveFileService();
+            _fetchDataFromDbService = new FetchDataFromDbService(youthvoiceDbContext);
         }
 
         public IActionResult CreateAnEvent()
@@ -27,39 +31,51 @@ namespace YouthVoice.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Event newEvent, IFormFile imageFile)
+        public async Task<IActionResult> CreateAnEvent(OrganisationEvent organisationEvent)
         {
-            //if (imageFile != null && imageFile.Length > 0)
-            //{
-            //    var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
-            //    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
+            try
+            {
+                if (organisationEvent == null)
+                {
+                    ViewBag.ErrorMessage = "Невалидни входни данни.";
+                    return View();
+                }
 
-            //    using (var stream = new FileStream(filePath, FileMode.Create))
-            //    {
-            //        await imageFile.CopyToAsync(stream);
-            //    }
-            //    newEvent.ImagePath = filePath;
-            //}
+                var organisation = _fetchDataFromDbService.GetOrganisationByOrganisationId(organisationEvent.OrganisationId);
+                if (organisation == null)
+                {
+                    ViewBag.ErrorMessage = "Организацията не е намерена";
+                    return View();
+                }
 
-            //_youthvoiceDbContext.Events.Add(newEvent);
-            //await _youthvoiceDbContext.SaveChangesAsync();
-            return RedirectToAction("Index", "Home");            
-        }
+                organisationEvent.Event.ImagePath = await _saveFileService.SaveFile(organisationEvent.Event.File, "images/Events/");
 
-        public IActionResult AddCity()
-        {
-            var city = new City { Name="Burgas" };
-            _youthvoiceDbContext.Cities.Add(city);
-            _youthvoiceDbContext.SaveChanges();
+                //if (organisationEvent.Event.Address == null) organisationEvent.Event.Address = "empty";
+                //if (organisationEvent.Event.VirtualMeetingLink == null) organisationEvent.Event.VirtualMeetingLink = "empty";
 
-            return RedirectToAction("ModeratorPage");
-        }
+                _dbContext.Organisations.Attach(organisation);
+                _dbContext.Events.Add(organisationEvent.Event);
 
-        public IActionResult FetchCities()
-        {
-            var cities = _youthvoiceDbContext.Cities.ToList();
-            
-            return RedirectToAction("ModeratorPage");
+                var newOrganisationEvent = new OrganisationEvent
+                {
+                    EventId = organisationEvent.EventId,
+                    Event = organisationEvent.Event,
+
+                    OrganisationId = organisation.OrganisationId,
+                    Organisation = organisation
+                };
+
+                _dbContext.OrganisationEvent.Add(newOrganisationEvent);
+                _dbContext.SaveChanges();
+
+                return View();
+            }
+            catch (Exception ex)
+            {
+                ViewBag.ErrorMessage = "Възникна грешка при създаване на събитето.";
+
+                return View();
+            }
         }
     }
 }

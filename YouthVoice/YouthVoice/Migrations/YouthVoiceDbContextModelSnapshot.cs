@@ -51,6 +51,9 @@ namespace YouthVoice.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Capacity")
+                        .HasColumnType("int");
+
                     b.Property<string>("Category")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -65,19 +68,24 @@ namespace YouthVoice.Migrations
                     b.Property<TimeOnly>("EndTime")
                         .HasColumnType("time");
 
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("InPersonOrOnline")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Location")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("MaxCapacity")
-                        .HasColumnType("int");
+                    b.Property<DateOnly>("RegistrationDeadline")
+                        .HasColumnType("date");
 
-                    b.Property<string>("OrganisationName")
+                    b.Property<string>("RegistrationLink")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("RegistrationDeadline")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ShortDescription")
                         .IsRequired()
@@ -96,38 +104,7 @@ namespace YouthVoice.Migrations
 
                     b.HasKey("EventId");
 
-                    b.HasIndex("OrganisationName");
-
                     b.ToTable("Events");
-                });
-
-            modelBuilder.Entity("YouthVoice.Data.Image", b =>
-                {
-                    b.Property<int>("ImageId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ImageId"));
-
-                    b.Property<int>("EventId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("EventId1")
-                        .HasColumnType("int");
-
-                    b.Property<byte[]>("ImageData")
-                        .IsRequired()
-                        .HasColumnType("varbinary(max)");
-
-                    b.HasKey("ImageId");
-
-                    b.HasIndex("EventId");
-
-                    b.HasIndex("EventId1")
-                        .IsUnique()
-                        .HasFilter("[EventId1] IS NOT NULL");
-
-                    b.ToTable("Images");
                 });
 
             modelBuilder.Entity("YouthVoice.Data.Member", b =>
@@ -168,11 +145,19 @@ namespace YouthVoice.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Website")
+                    b.Property<string>("ShortDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SocialMedia")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -181,6 +166,21 @@ namespace YouthVoice.Migrations
                     b.HasIndex("CityId");
 
                     b.ToTable("Organisations");
+                });
+
+            modelBuilder.Entity("YouthVoice.Data.OrganisationEvent", b =>
+                {
+                    b.Property<int>("OrganisationId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EventId")
+                        .HasColumnType("int");
+
+                    b.HasKey("OrganisationId", "EventId");
+
+                    b.HasIndex("EventId");
+
+                    b.ToTable("OrganisationEvent");
                 });
 
             modelBuilder.Entity("YouthVoice.Data.Role", b =>
@@ -238,33 +238,6 @@ namespace YouthVoice.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("YouthVoice.Data.Event", b =>
-                {
-                    b.HasOne("YouthVoice.Data.Organisation", "Organisation")
-                        .WithMany("Events")
-                        .HasForeignKey("OrganisationName")
-                        .HasPrincipalKey("Name")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Organisation");
-                });
-
-            modelBuilder.Entity("YouthVoice.Data.Image", b =>
-                {
-                    b.HasOne("YouthVoice.Data.Event", "Event")
-                        .WithMany("AdditionalImages")
-                        .HasForeignKey("EventId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("YouthVoice.Data.Event", null)
-                        .WithOne("FeaturedImage")
-                        .HasForeignKey("YouthVoice.Data.Image", "EventId1");
-
-                    b.Navigation("Event");
-                });
-
             modelBuilder.Entity("YouthVoice.Data.Member", b =>
                 {
                     b.HasOne("YouthVoice.Data.Organisation", "Organisation")
@@ -295,6 +268,25 @@ namespace YouthVoice.Migrations
                     b.Navigation("City");
                 });
 
+            modelBuilder.Entity("YouthVoice.Data.OrganisationEvent", b =>
+                {
+                    b.HasOne("YouthVoice.Data.Event", "Event")
+                        .WithMany("OrganisationEvents")
+                        .HasForeignKey("EventId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("YouthVoice.Data.Organisation", "Organisation")
+                        .WithMany("OrganisationEvents")
+                        .HasForeignKey("OrganisationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Event");
+
+                    b.Navigation("Organisation");
+                });
+
             modelBuilder.Entity("YouthVoice.Data.User", b =>
                 {
                     b.HasOne("YouthVoice.Data.Role", "Role")
@@ -308,15 +300,12 @@ namespace YouthVoice.Migrations
 
             modelBuilder.Entity("YouthVoice.Data.Event", b =>
                 {
-                    b.Navigation("AdditionalImages");
-
-                    b.Navigation("FeaturedImage")
-                        .IsRequired();
+                    b.Navigation("OrganisationEvents");
                 });
 
             modelBuilder.Entity("YouthVoice.Data.Organisation", b =>
                 {
-                    b.Navigation("Events");
+                    b.Navigation("OrganisationEvents");
                 });
 #pragma warning restore 612, 618
         }

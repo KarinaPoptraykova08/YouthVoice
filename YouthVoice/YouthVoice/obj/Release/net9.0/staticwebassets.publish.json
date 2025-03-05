@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QbU/mWAzXSaXK5DBNP/qebrRVZFSneDVUZ7YUQXwq7A=",
+  "Hash": "w8aS8dY5PtN+CAsldYvs9CpD81FroJSSVlasZRV21Y0=",
   "Source": "YouthVoice",
   "BasePath": "_content/YouthVoice",
   "Mode": "Default",
@@ -38,12 +38,12 @@
       "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\0pp0wlfa0k-dceiu3fo0f.gz",
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\0pp0wlfa0k-tuqpu10kyr.gz",
       "SourceId": "YouthVoice",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "_content/YouthVoice",
-      "RelativePath": "css/styles#[.{fingerprint=dceiu3fo0f}]?.css.gz",
+      "RelativePath": "css/styles#[.{fingerprint=tuqpu10kyr}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -52,8 +52,8 @@
       "RelatedAsset": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "z25x21fvxb",
-      "Integrity": "+y1OyYr1ZwIczjDFCCRibmCYeXdbweZ3v4Q0odXRVco=",
+      "Fingerprint": "q09comi9y1",
+      "Integrity": "VrfADdOKXsv9kEpH3RmNPJqebAqNOYTj1P3HvCTU8vU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\styles.css"
@@ -183,6 +183,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\41idrxu6rd-jro8da6w0j.gz",
+      "SourceId": "YouthVoice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/YouthVoice",
+      "RelativePath": "js/design#[.{fingerprint=jro8da6w0j}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\js\\design.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wesymje9gz",
+      "Integrity": "qBk6M7a1afKLgyPoT7nJlIKmZ+hu4oS9OHZ6aubkZLg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\js\\design.js"
     },
     {
       "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\4yakgdsg0q-cwzlr5n8x4.gz",
@@ -353,6 +374,27 @@
       "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\8t8kuoe7kw-ob2ffx8t26.gz",
+      "SourceId": "YouthVoice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/YouthVoice",
+      "RelativePath": "images/Home/contact-us#[.{fingerprint=ob2ffx8t26}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\contact-us.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "r6k9z2wjcz",
+      "Integrity": "jSYqteXM8YCofWuiCNPXlVNVbtDBEwH1rCe1OtUOhB8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\contact-us.svg"
+    },
+    {
       "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\9byq54u02y-6gzpyzhau4.gz",
       "SourceId": "YouthVoice",
       "SourceType": "Discovered",
@@ -393,27 +435,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\ago6avehfw-jolfy31u35.gz",
-      "SourceId": "YouthVoice",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\",
-      "BasePath": "_content/YouthVoice",
-      "RelativePath": "css/stylesheet#[.{fingerprint=jolfy31u35}]?.css.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\stylesheet.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "8we5lygl3o",
-      "Integrity": "qBfnMKodvbFrNWKPBzmwxK3pDuiwjkxI1nKYFegM2sU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\stylesheet.css"
     },
     {
       "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\amhsg9c6ea-jqwzsa9uv6.gz",
@@ -941,12 +962,12 @@
       "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\0pp0wlfa0k-dceiu3fo0f.br",
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\0pp0wlfa0k-tuqpu10kyr.br",
       "SourceId": "YouthVoice",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\",
       "BasePath": "_content/YouthVoice",
-      "RelativePath": "css/styles#[.{fingerprint=dceiu3fo0f}]?.css.br",
+      "RelativePath": "css/styles#[.{fingerprint=tuqpu10kyr}]?.css.br",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -955,8 +976,8 @@
       "RelatedAsset": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "w2799pwzyy",
-      "Integrity": "GPmFJVt/1ItVoWp+oR2TJ1mffii2gKllKoGuzaFO7sU=",
+      "Fingerprint": "ys4hjuv1tt",
+      "Integrity": "bnKLvItxvjXKoABnBzSBHnj4rUd5ewHCSphIwMtjbYE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\styles.css"
@@ -1086,6 +1107,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\41idrxu6rd-jro8da6w0j.br",
+      "SourceId": "YouthVoice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/YouthVoice",
+      "RelativePath": "js/design#[.{fingerprint=jro8da6w0j}]?.js.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\js\\design.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "wvfa164g37",
+      "Integrity": "FNg/HU/ECN+AOsMHSW9C0x3WNCkp1bDrItLSwPm+8Vc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\js\\design.js"
     },
     {
       "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\4yakgdsg0q-cwzlr5n8x4.br",
@@ -1256,6 +1298,27 @@
       "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\8t8kuoe7kw-ob2ffx8t26.br",
+      "SourceId": "YouthVoice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/YouthVoice",
+      "RelativePath": "images/Home/contact-us#[.{fingerprint=ob2ffx8t26}]?.svg.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\contact-us.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "g0xed7hn7g",
+      "Integrity": "YOgeAwkpRRem21+mxBChuvgT1CEfR7wdcENbLweAGJU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\contact-us.svg"
+    },
+    {
       "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\9byq54u02y-6gzpyzhau4.br",
       "SourceId": "YouthVoice",
       "SourceType": "Discovered",
@@ -1296,27 +1359,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\ago6avehfw-jolfy31u35.br",
-      "SourceId": "YouthVoice",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\",
-      "BasePath": "_content/YouthVoice",
-      "RelativePath": "css/stylesheet#[.{fingerprint=jolfy31u35}]?.css.br",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\stylesheet.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "br",
-      "Fingerprint": "j2vsn1e64t",
-      "Integrity": "tfgSChEmj2uQNzeLtLugdJUgqX7OSUH65kxTQ6uwlpM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\stylesheet.css"
     },
     {
       "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\amhsg9c6ea-jqwzsa9uv6.br",
@@ -2138,6 +2180,27 @@
       "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\y8p1nepbor-du8h11kvav.br",
+      "SourceId": "YouthVoice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/YouthVoice",
+      "RelativePath": "css/faq#[.{fingerprint=du8h11kvav}]?.css.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\faq.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "gzpmoex29n",
+      "Integrity": "9DLxvLNh//WpEtfMpkP3Rr47radU775E4uvep/PRtBM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\faq.css"
+    },
+    {
       "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\yd0ysvsus8-ab1c3rmv7g.br",
       "SourceId": "YouthVoice",
       "SourceType": "Discovered",
@@ -2600,6 +2663,27 @@
       "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\y8p1nepbor-du8h11kvav.gz",
+      "SourceId": "YouthVoice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/YouthVoice",
+      "RelativePath": "css/faq#[.{fingerprint=du8h11kvav}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\faq.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "q311uaqkep",
+      "Integrity": "Kl5tC6m1LAXiF/NtmCoIbLDDISRggzel9cL1h0MuYB8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\faq.css"
+    },
+    {
       "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\yd0ysvsus8-ab1c3rmv7g.gz",
       "SourceId": "YouthVoice",
       "SourceType": "Discovered",
@@ -2810,6 +2894,27 @@
       "OriginalItemSpec": "wwwroot\\css\\advanced-styles.css"
     },
     {
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\faq.css",
+      "SourceId": "YouthVoice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\",
+      "BasePath": "_content/YouthVoice",
+      "RelativePath": "css/faq#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "du8h11kvav",
+      "Integrity": "BYz9q8kYYFYtD00VaXw+d9R/q2mpYyxQd32vNT/OLFk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\faq.css"
+    },
+    {
       "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\site.css",
       "SourceId": "YouthVoice",
       "SourceType": "Discovered",
@@ -2845,32 +2950,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dceiu3fo0f",
-      "Integrity": "4yzesHgRFdDbdwOh2BR8cDlDqQ34OLIG+kg8lJpbvEk=",
+      "Fingerprint": "tuqpu10kyr",
+      "Integrity": "yylntDARe97BfgrxsFybZCmUZs+Yucr3Tc6L4fLjY/8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\stylesheet.css",
-      "SourceId": "YouthVoice",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\",
-      "BasePath": "_content/YouthVoice",
-      "RelativePath": "css/stylesheet#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "jolfy31u35",
-      "Integrity": "g/ljF/jmZadkGesGfepvLvuYKO/gkxd5bJMK3rshsXE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\stylesheet.css"
     },
     {
       "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\firebase-key.json",
@@ -2936,6 +3020,27 @@
       "OriginalItemSpec": "wwwroot\\images\\events.jpg"
     },
     {
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Events\\events.jpg",
+      "SourceId": "YouthVoice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\",
+      "BasePath": "_content/YouthVoice",
+      "RelativePath": "images/Events/events#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sie4d1e3dj",
+      "Integrity": "fGwekokd92Go41nLejOQEO5EdXo4qjV6uucm/oCnPN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Events\\events.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\fireworks.jpeg",
       "SourceId": "YouthVoice",
       "SourceType": "Discovered",
@@ -2957,12 +3062,12 @@
       "OriginalItemSpec": "wwwroot\\images\\fireworks.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\community.jpg",
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\contact-us.svg",
       "SourceId": "YouthVoice",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\",
       "BasePath": "_content/YouthVoice",
-      "RelativePath": "images/Home/community#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/Home/contact-us#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2971,19 +3076,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "74nsm2mzhf",
-      "Integrity": "B6J4X5LybphiUR7DpAcRxHAhwh3yE/Nf/vCSdUAAxSs=",
+      "Fingerprint": "ob2ffx8t26",
+      "Integrity": "hAyK6mgrd19Z8kRnmEcxQy+Ro81XZ+Tr41Uqx5aea0o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Home\\community.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Home\\contact-us.svg"
     },
     {
-      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\speak.jpg",
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\home-1.png",
       "SourceId": "YouthVoice",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\",
       "BasePath": "_content/YouthVoice",
-      "RelativePath": "images/Home/speak#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/Home/home-1#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2992,19 +3097,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nyr3ixp1e6",
-      "Integrity": "sQnk1PhtZoXjcYvewQ/1Wcsxf/1grAqEmH1HML1u6Wo=",
+      "Fingerprint": "wo0pxnzhcv",
+      "Integrity": "wLztfn0vocxpl8h3JwBwJcID1W2aeUc58y1+5A4/Njo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Home\\speak.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Home\\home-1.png"
     },
     {
-      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\voice.jpg",
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\home-2.png",
       "SourceId": "YouthVoice",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\",
       "BasePath": "_content/YouthVoice",
-      "RelativePath": "images/Home/voice#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/Home/home-2#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3013,11 +3118,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "yimgnfb0hh",
-      "Integrity": "CpnTKclBEJJP+Eh79/McmDms2BM2kN2YzSOgX866qng=",
+      "Fingerprint": "fpicbwnw6v",
+      "Integrity": "s8Rbp2oO8ZIh0d3v7FB4JAM6BHToFipEGgfQiQuyUYQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Home\\voice.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Home\\home-2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\home-3.jpg",
+      "SourceId": "YouthVoice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\",
+      "BasePath": "_content/YouthVoice",
+      "RelativePath": "images/Home/home-3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "45rboag41y",
+      "Integrity": "2CETLIgSXWDmHj6lcPntr0EAuVZaJPZ2fUy0wrhpXTc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Home\\home-3.jpg"
     },
     {
       "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\karina.jpg",
@@ -3062,6 +3188,69 @@
       "OriginalItemSpec": "wwwroot\\images\\Moderator\\editor-pfp.png"
     },
     {
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Organisations\\burgas-ombudsman-logo.png",
+      "SourceId": "YouthVoice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\",
+      "BasePath": "_content/YouthVoice",
+      "RelativePath": "images/Organisations/burgas-ombudsman-logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l98v741vp8",
+      "Integrity": "Z/3J4n0A8RLBPXschWx/oQp8DtDhncge+qhVO9GEVdI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Organisations\\burgas-ombudsman-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Organisations\\fireworks.jpeg",
+      "SourceId": "YouthVoice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\",
+      "BasePath": "_content/YouthVoice",
+      "RelativePath": "images/Organisations/fireworks#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rt96nhegzn",
+      "Integrity": "wU2jNNgVd/z/rFHPpVqy48I50gatwGQGBbtLdcZgxuk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Organisations\\fireworks.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Organisations\\uchenicheski-parlament-veliko-tarnovo.png",
+      "SourceId": "YouthVoice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\",
+      "BasePath": "_content/YouthVoice",
+      "RelativePath": "images/Organisations/uchenicheski-parlament-veliko-tarnovo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "focgik9svm",
+      "Integrity": "0amUb6KN3YOqRZuXlXKS+sOnBzsNVgZU+/TtAp+lqjs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Organisations\\uchenicheski-parlament-veliko-tarnovo.png"
+    },
+    {
       "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\yanislav.jpg",
       "SourceId": "YouthVoice",
       "SourceType": "Discovered",
@@ -3081,6 +3270,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\yanislav.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\js\\design.js",
+      "SourceId": "YouthVoice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\",
+      "BasePath": "_content/YouthVoice",
+      "RelativePath": "js/design#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jro8da6w0j",
+      "Integrity": "XyQ82oJi/RMEMHYaiMCmIATUKn4bVowevL52S4wAHIA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\design.js"
     },
     {
       "Identity": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\js\\script.js",
@@ -4880,6 +5090,520 @@
       ]
     },
     {
+      "Route": "css/faq.css",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\y8p1nepbor-du8h11kvav.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.001385041551"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "721"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9DLxvLNh//WpEtfMpkP3Rr47radU775E4uvep/PRtBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:54:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BYz9q8kYYFYtD00VaXw+d9R/q2mpYyxQd32vNT/OLFk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BYz9q8kYYFYtD00VaXw+d9R/q2mpYyxQd32vNT/OLFk="
+        }
+      ]
+    },
+    {
+      "Route": "css/faq.css",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\y8p1nepbor-du8h11kvav.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001100110011"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "908"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kl5tC6m1LAXiF/NtmCoIbLDDISRggzel9cL1h0MuYB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:54:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BYz9q8kYYFYtD00VaXw+d9R/q2mpYyxQd32vNT/OLFk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BYz9q8kYYFYtD00VaXw+d9R/q2mpYyxQd32vNT/OLFk="
+        }
+      ]
+    },
+    {
+      "Route": "css/faq.css",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\faq.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BYz9q8kYYFYtD00VaXw+d9R/q2mpYyxQd32vNT/OLFk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:54:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BYz9q8kYYFYtD00VaXw+d9R/q2mpYyxQd32vNT/OLFk="
+        }
+      ]
+    },
+    {
+      "Route": "css/faq.css.br",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\y8p1nepbor-du8h11kvav.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9DLxvLNh//WpEtfMpkP3Rr47radU775E4uvep/PRtBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:54:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9DLxvLNh//WpEtfMpkP3Rr47radU775E4uvep/PRtBM="
+        }
+      ]
+    },
+    {
+      "Route": "css/faq.css.gz",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\y8p1nepbor-du8h11kvav.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kl5tC6m1LAXiF/NtmCoIbLDDISRggzel9cL1h0MuYB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:54:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kl5tC6m1LAXiF/NtmCoIbLDDISRggzel9cL1h0MuYB8="
+        }
+      ]
+    },
+    {
+      "Route": "css/faq.du8h11kvav.css",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\y8p1nepbor-du8h11kvav.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.001385041551"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "721"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9DLxvLNh//WpEtfMpkP3Rr47radU775E4uvep/PRtBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:54:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BYz9q8kYYFYtD00VaXw+d9R/q2mpYyxQd32vNT/OLFk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "du8h11kvav"
+        },
+        {
+          "Name": "label",
+          "Value": "css/faq.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BYz9q8kYYFYtD00VaXw+d9R/q2mpYyxQd32vNT/OLFk="
+        }
+      ]
+    },
+    {
+      "Route": "css/faq.du8h11kvav.css",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\y8p1nepbor-du8h11kvav.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001100110011"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "908"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kl5tC6m1LAXiF/NtmCoIbLDDISRggzel9cL1h0MuYB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:54:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BYz9q8kYYFYtD00VaXw+d9R/q2mpYyxQd32vNT/OLFk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "du8h11kvav"
+        },
+        {
+          "Name": "label",
+          "Value": "css/faq.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BYz9q8kYYFYtD00VaXw+d9R/q2mpYyxQd32vNT/OLFk="
+        }
+      ]
+    },
+    {
+      "Route": "css/faq.du8h11kvav.css",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\faq.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BYz9q8kYYFYtD00VaXw+d9R/q2mpYyxQd32vNT/OLFk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:54:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "du8h11kvav"
+        },
+        {
+          "Name": "label",
+          "Value": "css/faq.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BYz9q8kYYFYtD00VaXw+d9R/q2mpYyxQd32vNT/OLFk="
+        }
+      ]
+    },
+    {
+      "Route": "css/faq.du8h11kvav.css.br",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\y8p1nepbor-du8h11kvav.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9DLxvLNh//WpEtfMpkP3Rr47radU775E4uvep/PRtBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:54:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "du8h11kvav"
+        },
+        {
+          "Name": "label",
+          "Value": "css/faq.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9DLxvLNh//WpEtfMpkP3Rr47radU775E4uvep/PRtBM="
+        }
+      ]
+    },
+    {
+      "Route": "css/faq.du8h11kvav.css.gz",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\y8p1nepbor-du8h11kvav.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kl5tC6m1LAXiF/NtmCoIbLDDISRggzel9cL1h0MuYB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:54:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "du8h11kvav"
+        },
+        {
+          "Name": "label",
+          "Value": "css/faq.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kl5tC6m1LAXiF/NtmCoIbLDDISRggzel9cL1h0MuYB8="
+        }
+      ]
+    },
+    {
       "Route": "css/site.6knw7s4cq4.css",
       "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\an66oxkb7n-6knw7s4cq4.gz",
       "Selectors": [
@@ -5395,12 +6119,12 @@
     },
     {
       "Route": "css/styles.css",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\0pp0wlfa0k-dceiu3fo0f.gz",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\0pp0wlfa0k-tuqpu10kyr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000567536890"
+          "Quality": "0.000536193029"
         }
       ],
       "ResponseHeaders": [
@@ -5410,15 +6134,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1761"
+          "Value": "1864"
         },
         {
           "Name": "ETag",
-          "Value": "\"+y1OyYr1ZwIczjDFCCRibmCYeXdbweZ3v4Q0odXRVco=\""
+          "Value": "\"VrfADdOKXsv9kEpH3RmNPJqebAqNOYTj1P3HvCTU8vU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 10:22:18 GMT"
+          "Value": "Mon, 03 Mar 2025 12:41:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5438,24 +6162,24 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4yzesHgRFdDbdwOh2BR8cDlDqQ34OLIG+kg8lJpbvEk=\""
+          "Value": "W/\"yylntDARe97BfgrxsFybZCmUZs+Yucr3Tc6L4fLjY/8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4yzesHgRFdDbdwOh2BR8cDlDqQ34OLIG+kg8lJpbvEk="
+          "Value": "sha256-yylntDARe97BfgrxsFybZCmUZs+Yucr3Tc6L4fLjY/8="
         }
       ]
     },
     {
       "Route": "css/styles.css",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\0pp0wlfa0k-dceiu3fo0f.br",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\0pp0wlfa0k-tuqpu10kyr.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000684462697"
+          "Quality": "0.000644745326"
         }
       ],
       "ResponseHeaders": [
@@ -5465,15 +6189,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1460"
+          "Value": "1550"
         },
         {
           "Name": "ETag",
-          "Value": "\"GPmFJVt/1ItVoWp+oR2TJ1mffii2gKllKoGuzaFO7sU=\""
+          "Value": "\"bnKLvItxvjXKoABnBzSBHnj4rUd5ewHCSphIwMtjbYE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 10:22:18 GMT"
+          "Value": "Mon, 03 Mar 2025 12:41:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5493,13 +6217,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4yzesHgRFdDbdwOh2BR8cDlDqQ34OLIG+kg8lJpbvEk=\""
+          "Value": "W/\"yylntDARe97BfgrxsFybZCmUZs+Yucr3Tc6L4fLjY/8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4yzesHgRFdDbdwOh2BR8cDlDqQ34OLIG+kg8lJpbvEk="
+          "Value": "sha256-yylntDARe97BfgrxsFybZCmUZs+Yucr3Tc6L4fLjY/8="
         }
       ]
     },
@@ -5514,7 +6238,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7336"
+          "Value": "7739"
         },
         {
           "Name": "Content-Type",
@@ -5522,11 +6246,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4yzesHgRFdDbdwOh2BR8cDlDqQ34OLIG+kg8lJpbvEk=\""
+          "Value": "\"yylntDARe97BfgrxsFybZCmUZs+Yucr3Tc6L4fLjY/8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 10:22:18 GMT"
+          "Value": "Mon, 03 Mar 2025 12:41:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5536,13 +6260,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4yzesHgRFdDbdwOh2BR8cDlDqQ34OLIG+kg8lJpbvEk="
+          "Value": "sha256-yylntDARe97BfgrxsFybZCmUZs+Yucr3Tc6L4fLjY/8="
         }
       ]
     },
     {
       "Route": "css/styles.css.br",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\0pp0wlfa0k-dceiu3fo0f.br",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\0pp0wlfa0k-tuqpu10kyr.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5551,7 +6275,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1460"
+          "Value": "1550"
         },
         {
           "Name": "Content-Type",
@@ -5559,11 +6283,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GPmFJVt/1ItVoWp+oR2TJ1mffii2gKllKoGuzaFO7sU=\""
+          "Value": "\"bnKLvItxvjXKoABnBzSBHnj4rUd5ewHCSphIwMtjbYE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 10:22:18 GMT"
+          "Value": "Mon, 03 Mar 2025 12:41:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5581,13 +6305,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GPmFJVt/1ItVoWp+oR2TJ1mffii2gKllKoGuzaFO7sU="
+          "Value": "sha256-bnKLvItxvjXKoABnBzSBHnj4rUd5ewHCSphIwMtjbYE="
         }
       ]
     },
     {
       "Route": "css/styles.css.gz",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\0pp0wlfa0k-dceiu3fo0f.gz",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\0pp0wlfa0k-tuqpu10kyr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5596,7 +6320,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1761"
+          "Value": "1864"
         },
         {
           "Name": "Content-Type",
@@ -5604,11 +6328,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+y1OyYr1ZwIczjDFCCRibmCYeXdbweZ3v4Q0odXRVco=\""
+          "Value": "\"VrfADdOKXsv9kEpH3RmNPJqebAqNOYTj1P3HvCTU8vU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 10:22:18 GMT"
+          "Value": "Mon, 03 Mar 2025 12:41:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5626,18 +6350,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+y1OyYr1ZwIczjDFCCRibmCYeXdbweZ3v4Q0odXRVco="
+          "Value": "sha256-VrfADdOKXsv9kEpH3RmNPJqebAqNOYTj1P3HvCTU8vU="
         }
       ]
     },
     {
-      "Route": "css/styles.dceiu3fo0f.css",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\0pp0wlfa0k-dceiu3fo0f.gz",
+      "Route": "css/styles.tuqpu10kyr.css",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\0pp0wlfa0k-tuqpu10kyr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000567536890"
+          "Quality": "0.000536193029"
         }
       ],
       "ResponseHeaders": [
@@ -5647,15 +6371,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1761"
+          "Value": "1864"
         },
         {
           "Name": "ETag",
-          "Value": "\"+y1OyYr1ZwIczjDFCCRibmCYeXdbweZ3v4Q0odXRVco=\""
+          "Value": "\"VrfADdOKXsv9kEpH3RmNPJqebAqNOYTj1P3HvCTU8vU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 10:22:18 GMT"
+          "Value": "Mon, 03 Mar 2025 12:41:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5675,13 +6399,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4yzesHgRFdDbdwOh2BR8cDlDqQ34OLIG+kg8lJpbvEk=\""
+          "Value": "W/\"yylntDARe97BfgrxsFybZCmUZs+Yucr3Tc6L4fLjY/8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dceiu3fo0f"
+          "Value": "tuqpu10kyr"
         },
         {
           "Name": "label",
@@ -5689,18 +6413,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4yzesHgRFdDbdwOh2BR8cDlDqQ34OLIG+kg8lJpbvEk="
+          "Value": "sha256-yylntDARe97BfgrxsFybZCmUZs+Yucr3Tc6L4fLjY/8="
         }
       ]
     },
     {
-      "Route": "css/styles.dceiu3fo0f.css",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\0pp0wlfa0k-dceiu3fo0f.br",
+      "Route": "css/styles.tuqpu10kyr.css",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\0pp0wlfa0k-tuqpu10kyr.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000684462697"
+          "Quality": "0.000644745326"
         }
       ],
       "ResponseHeaders": [
@@ -5710,15 +6434,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1460"
+          "Value": "1550"
         },
         {
           "Name": "ETag",
-          "Value": "\"GPmFJVt/1ItVoWp+oR2TJ1mffii2gKllKoGuzaFO7sU=\""
+          "Value": "\"bnKLvItxvjXKoABnBzSBHnj4rUd5ewHCSphIwMtjbYE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 10:22:18 GMT"
+          "Value": "Mon, 03 Mar 2025 12:41:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5738,13 +6462,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4yzesHgRFdDbdwOh2BR8cDlDqQ34OLIG+kg8lJpbvEk=\""
+          "Value": "W/\"yylntDARe97BfgrxsFybZCmUZs+Yucr3Tc6L4fLjY/8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dceiu3fo0f"
+          "Value": "tuqpu10kyr"
         },
         {
           "Name": "label",
@@ -5752,12 +6476,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4yzesHgRFdDbdwOh2BR8cDlDqQ34OLIG+kg8lJpbvEk="
+          "Value": "sha256-yylntDARe97BfgrxsFybZCmUZs+Yucr3Tc6L4fLjY/8="
         }
       ]
     },
     {
-      "Route": "css/styles.dceiu3fo0f.css",
+      "Route": "css/styles.tuqpu10kyr.css",
       "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5767,7 +6491,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7336"
+          "Value": "7739"
         },
         {
           "Name": "Content-Type",
@@ -5775,11 +6499,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4yzesHgRFdDbdwOh2BR8cDlDqQ34OLIG+kg8lJpbvEk=\""
+          "Value": "\"yylntDARe97BfgrxsFybZCmUZs+Yucr3Tc6L4fLjY/8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 10:22:18 GMT"
+          "Value": "Mon, 03 Mar 2025 12:41:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5789,7 +6513,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dceiu3fo0f"
+          "Value": "tuqpu10kyr"
         },
         {
           "Name": "label",
@@ -5797,13 +6521,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4yzesHgRFdDbdwOh2BR8cDlDqQ34OLIG+kg8lJpbvEk="
+          "Value": "sha256-yylntDARe97BfgrxsFybZCmUZs+Yucr3Tc6L4fLjY/8="
         }
       ]
     },
     {
-      "Route": "css/styles.dceiu3fo0f.css.br",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\0pp0wlfa0k-dceiu3fo0f.br",
+      "Route": "css/styles.tuqpu10kyr.css.br",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\0pp0wlfa0k-tuqpu10kyr.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5812,7 +6536,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1460"
+          "Value": "1550"
         },
         {
           "Name": "Content-Type",
@@ -5820,11 +6544,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GPmFJVt/1ItVoWp+oR2TJ1mffii2gKllKoGuzaFO7sU=\""
+          "Value": "\"bnKLvItxvjXKoABnBzSBHnj4rUd5ewHCSphIwMtjbYE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 10:22:18 GMT"
+          "Value": "Mon, 03 Mar 2025 12:41:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5842,7 +6566,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dceiu3fo0f"
+          "Value": "tuqpu10kyr"
         },
         {
           "Name": "label",
@@ -5850,13 +6574,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GPmFJVt/1ItVoWp+oR2TJ1mffii2gKllKoGuzaFO7sU="
+          "Value": "sha256-bnKLvItxvjXKoABnBzSBHnj4rUd5ewHCSphIwMtjbYE="
         }
       ]
     },
     {
-      "Route": "css/styles.dceiu3fo0f.css.gz",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\0pp0wlfa0k-dceiu3fo0f.gz",
+      "Route": "css/styles.tuqpu10kyr.css.gz",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\0pp0wlfa0k-tuqpu10kyr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5865,7 +6589,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1761"
+          "Value": "1864"
         },
         {
           "Name": "Content-Type",
@@ -5873,11 +6597,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+y1OyYr1ZwIczjDFCCRibmCYeXdbweZ3v4Q0odXRVco=\""
+          "Value": "\"VrfADdOKXsv9kEpH3RmNPJqebAqNOYTj1P3HvCTU8vU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 10:22:18 GMT"
+          "Value": "Mon, 03 Mar 2025 12:41:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5895,7 +6619,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dceiu3fo0f"
+          "Value": "tuqpu10kyr"
         },
         {
           "Name": "label",
@@ -5903,521 +6627,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+y1OyYr1ZwIczjDFCCRibmCYeXdbweZ3v4Q0odXRVco="
-        }
-      ]
-    },
-    {
-      "Route": "css/stylesheet.css",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\ago6avehfw-jolfy31u35.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001219512195"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "819"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qBfnMKodvbFrNWKPBzmwxK3pDuiwjkxI1nKYFegM2sU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 19:10:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"g/ljF/jmZadkGesGfepvLvuYKO/gkxd5bJMK3rshsXE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-g/ljF/jmZadkGesGfepvLvuYKO/gkxd5bJMK3rshsXE="
-        }
-      ]
-    },
-    {
-      "Route": "css/stylesheet.css",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\ago6avehfw-jolfy31u35.br",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "br",
-          "Quality": "0.001564945227"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "638"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tfgSChEmj2uQNzeLtLugdJUgqX7OSUH65kxTQ6uwlpM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 19:10:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"g/ljF/jmZadkGesGfepvLvuYKO/gkxd5bJMK3rshsXE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-g/ljF/jmZadkGesGfepvLvuYKO/gkxd5bJMK3rshsXE="
-        }
-      ]
-    },
-    {
-      "Route": "css/stylesheet.css",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\stylesheet.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2378"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"g/ljF/jmZadkGesGfepvLvuYKO/gkxd5bJMK3rshsXE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 19:10:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-g/ljF/jmZadkGesGfepvLvuYKO/gkxd5bJMK3rshsXE="
-        }
-      ]
-    },
-    {
-      "Route": "css/stylesheet.css.br",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\ago6avehfw-jolfy31u35.br",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "638"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tfgSChEmj2uQNzeLtLugdJUgqX7OSUH65kxTQ6uwlpM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 19:10:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tfgSChEmj2uQNzeLtLugdJUgqX7OSUH65kxTQ6uwlpM="
-        }
-      ]
-    },
-    {
-      "Route": "css/stylesheet.css.gz",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\ago6avehfw-jolfy31u35.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "819"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qBfnMKodvbFrNWKPBzmwxK3pDuiwjkxI1nKYFegM2sU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 19:10:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qBfnMKodvbFrNWKPBzmwxK3pDuiwjkxI1nKYFegM2sU="
-        }
-      ]
-    },
-    {
-      "Route": "css/stylesheet.jolfy31u35.css",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\ago6avehfw-jolfy31u35.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001219512195"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "819"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qBfnMKodvbFrNWKPBzmwxK3pDuiwjkxI1nKYFegM2sU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 19:10:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"g/ljF/jmZadkGesGfepvLvuYKO/gkxd5bJMK3rshsXE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jolfy31u35"
-        },
-        {
-          "Name": "label",
-          "Value": "css/stylesheet.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-g/ljF/jmZadkGesGfepvLvuYKO/gkxd5bJMK3rshsXE="
-        }
-      ]
-    },
-    {
-      "Route": "css/stylesheet.jolfy31u35.css",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\ago6avehfw-jolfy31u35.br",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "br",
-          "Quality": "0.001564945227"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "638"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tfgSChEmj2uQNzeLtLugdJUgqX7OSUH65kxTQ6uwlpM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 19:10:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"g/ljF/jmZadkGesGfepvLvuYKO/gkxd5bJMK3rshsXE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jolfy31u35"
-        },
-        {
-          "Name": "label",
-          "Value": "css/stylesheet.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-g/ljF/jmZadkGesGfepvLvuYKO/gkxd5bJMK3rshsXE="
-        }
-      ]
-    },
-    {
-      "Route": "css/stylesheet.jolfy31u35.css",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\stylesheet.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2378"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"g/ljF/jmZadkGesGfepvLvuYKO/gkxd5bJMK3rshsXE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 19:10:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jolfy31u35"
-        },
-        {
-          "Name": "label",
-          "Value": "css/stylesheet.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-g/ljF/jmZadkGesGfepvLvuYKO/gkxd5bJMK3rshsXE="
-        }
-      ]
-    },
-    {
-      "Route": "css/stylesheet.jolfy31u35.css.br",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\ago6avehfw-jolfy31u35.br",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "638"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tfgSChEmj2uQNzeLtLugdJUgqX7OSUH65kxTQ6uwlpM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 19:10:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jolfy31u35"
-        },
-        {
-          "Name": "label",
-          "Value": "css/stylesheet.css.br"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-tfgSChEmj2uQNzeLtLugdJUgqX7OSUH65kxTQ6uwlpM="
-        }
-      ]
-    },
-    {
-      "Route": "css/stylesheet.jolfy31u35.css.gz",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\ago6avehfw-jolfy31u35.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "819"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qBfnMKodvbFrNWKPBzmwxK3pDuiwjkxI1nKYFegM2sU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 19:10:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jolfy31u35"
-        },
-        {
-          "Name": "label",
-          "Value": "css/stylesheet.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qBfnMKodvbFrNWKPBzmwxK3pDuiwjkxI1nKYFegM2sU="
+          "Value": "sha256-VrfADdOKXsv9kEpH3RmNPJqebAqNOYTj1P3HvCTU8vU="
         }
       ]
     },
@@ -7100,6 +7310,88 @@
       ]
     },
     {
+      "Route": "images/Events/events.jpg",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Events\\events.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138887"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fGwekokd92Go41nLejOQEO5EdXo4qjV6uucm/oCnPN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 02:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fGwekokd92Go41nLejOQEO5EdXo4qjV6uucm/oCnPN0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Events/events.sie4d1e3dj.jpg",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Events\\events.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138887"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fGwekokd92Go41nLejOQEO5EdXo4qjV6uucm/oCnPN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 02:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sie4d1e3dj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Events/events.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fGwekokd92Go41nLejOQEO5EdXo4qjV6uucm/oCnPN0="
+        }
+      ]
+    },
+    {
       "Route": "images/fireworks.jpeg",
       "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\fireworks.jpeg",
       "Selectors": [],
@@ -7182,8 +7474,134 @@
       ]
     },
     {
-      "Route": "images/Home/community.74nsm2mzhf.jpg",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\community.jpg",
+      "Route": "images/Home/contact-us.ob2ffx8t26.svg",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\8t8kuoe7kw-ob2ffx8t26.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000088652482"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11279"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jSYqteXM8YCofWuiCNPXlVNVbtDBEwH1rCe1OtUOhB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 10:53:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hAyK6mgrd19Z8kRnmEcxQy+Ro81XZ+Tr41Uqx5aea0o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ob2ffx8t26"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Home/contact-us.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hAyK6mgrd19Z8kRnmEcxQy+Ro81XZ+Tr41Uqx5aea0o="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/contact-us.ob2ffx8t26.svg",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\8t8kuoe7kw-ob2ffx8t26.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000117082309"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8540"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YOgeAwkpRRem21+mxBChuvgT1CEfR7wdcENbLweAGJU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 10:53:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hAyK6mgrd19Z8kRnmEcxQy+Ro81XZ+Tr41Uqx5aea0o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ob2ffx8t26"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Home/contact-us.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hAyK6mgrd19Z8kRnmEcxQy+Ro81XZ+Tr41Uqx5aea0o="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/contact-us.ob2ffx8t26.svg",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\contact-us.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7192,19 +7610,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "743829"
+          "Value": "79231"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/svg+xml"
         },
         {
           "Name": "ETag",
-          "Value": "\"B6J4X5LybphiUR7DpAcRxHAhwh3yE/Nf/vCSdUAAxSs=\""
+          "Value": "\"hAyK6mgrd19Z8kRnmEcxQy+Ro81XZ+Tr41Uqx5aea0o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 22:27:56 GMT"
+          "Value": "Mon, 03 Mar 2025 10:53:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7214,21 +7632,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "74nsm2mzhf"
+          "Value": "ob2ffx8t26"
         },
         {
           "Name": "label",
-          "Value": "images/Home/community.jpg"
+          "Value": "images/Home/contact-us.svg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-B6J4X5LybphiUR7DpAcRxHAhwh3yE/Nf/vCSdUAAxSs="
+          "Value": "sha256-hAyK6mgrd19Z8kRnmEcxQy+Ro81XZ+Tr41Uqx5aea0o="
         }
       ]
     },
     {
-      "Route": "images/Home/community.jpg",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\community.jpg",
+      "Route": "images/Home/contact-us.ob2ffx8t26.svg.br",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\8t8kuoe7kw-ob2ffx8t26.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7237,19 +7655,235 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "743829"
+          "Value": "8540"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/svg+xml"
         },
         {
           "Name": "ETag",
-          "Value": "\"B6J4X5LybphiUR7DpAcRxHAhwh3yE/Nf/vCSdUAAxSs=\""
+          "Value": "\"YOgeAwkpRRem21+mxBChuvgT1CEfR7wdcENbLweAGJU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 22:27:56 GMT"
+          "Value": "Mon, 03 Mar 2025 10:53:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ob2ffx8t26"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Home/contact-us.svg.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YOgeAwkpRRem21+mxBChuvgT1CEfR7wdcENbLweAGJU="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/contact-us.ob2ffx8t26.svg.gz",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\8t8kuoe7kw-ob2ffx8t26.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jSYqteXM8YCofWuiCNPXlVNVbtDBEwH1rCe1OtUOhB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 10:53:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ob2ffx8t26"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Home/contact-us.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jSYqteXM8YCofWuiCNPXlVNVbtDBEwH1rCe1OtUOhB8="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/contact-us.svg",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\8t8kuoe7kw-ob2ffx8t26.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000088652482"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11279"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jSYqteXM8YCofWuiCNPXlVNVbtDBEwH1rCe1OtUOhB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 10:53:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hAyK6mgrd19Z8kRnmEcxQy+Ro81XZ+Tr41Uqx5aea0o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hAyK6mgrd19Z8kRnmEcxQy+Ro81XZ+Tr41Uqx5aea0o="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/contact-us.svg",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\8t8kuoe7kw-ob2ffx8t26.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000117082309"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8540"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YOgeAwkpRRem21+mxBChuvgT1CEfR7wdcENbLweAGJU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 10:53:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hAyK6mgrd19Z8kRnmEcxQy+Ro81XZ+Tr41Uqx5aea0o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hAyK6mgrd19Z8kRnmEcxQy+Ro81XZ+Tr41Uqx5aea0o="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/contact-us.svg",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\contact-us.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hAyK6mgrd19Z8kRnmEcxQy+Ro81XZ+Tr41Uqx5aea0o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 10:53:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7259,13 +7893,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-B6J4X5LybphiUR7DpAcRxHAhwh3yE/Nf/vCSdUAAxSs="
+          "Value": "sha256-hAyK6mgrd19Z8kRnmEcxQy+Ro81XZ+Tr41Uqx5aea0o="
         }
       ]
     },
     {
-      "Route": "images/Home/speak.jpg",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\speak.jpg",
+      "Route": "images/Home/contact-us.svg.br",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\8t8kuoe7kw-ob2ffx8t26.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7274,19 +7908,109 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2548826"
+          "Value": "8540"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/svg+xml"
         },
         {
           "Name": "ETag",
-          "Value": "\"sQnk1PhtZoXjcYvewQ/1Wcsxf/1grAqEmH1HML1u6Wo=\""
+          "Value": "\"YOgeAwkpRRem21+mxBChuvgT1CEfR7wdcENbLweAGJU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 22:48:54 GMT"
+          "Value": "Mon, 03 Mar 2025 10:53:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YOgeAwkpRRem21+mxBChuvgT1CEfR7wdcENbLweAGJU="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/contact-us.svg.gz",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\8t8kuoe7kw-ob2ffx8t26.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jSYqteXM8YCofWuiCNPXlVNVbtDBEwH1rCe1OtUOhB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 10:53:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jSYqteXM8YCofWuiCNPXlVNVbtDBEwH1rCe1OtUOhB8="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/home-1.png",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\home-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3538436"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wLztfn0vocxpl8h3JwBwJcID1W2aeUc58y1+5A4/Njo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:13:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7296,13 +8020,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sQnk1PhtZoXjcYvewQ/1Wcsxf/1grAqEmH1HML1u6Wo="
+          "Value": "sha256-wLztfn0vocxpl8h3JwBwJcID1W2aeUc58y1+5A4/Njo="
         }
       ]
     },
     {
-      "Route": "images/Home/speak.nyr3ixp1e6.jpg",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\speak.jpg",
+      "Route": "images/Home/home-1.wo0pxnzhcv.png",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\home-1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7311,19 +8035,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2548826"
+          "Value": "3538436"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"sQnk1PhtZoXjcYvewQ/1Wcsxf/1grAqEmH1HML1u6Wo=\""
+          "Value": "\"wLztfn0vocxpl8h3JwBwJcID1W2aeUc58y1+5A4/Njo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 22:48:54 GMT"
+          "Value": "Tue, 04 Mar 2025 13:13:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7333,21 +8057,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nyr3ixp1e6"
+          "Value": "wo0pxnzhcv"
         },
         {
           "Name": "label",
-          "Value": "images/Home/speak.jpg"
+          "Value": "images/Home/home-1.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sQnk1PhtZoXjcYvewQ/1Wcsxf/1grAqEmH1HML1u6Wo="
+          "Value": "sha256-wLztfn0vocxpl8h3JwBwJcID1W2aeUc58y1+5A4/Njo="
         }
       ]
     },
     {
-      "Route": "images/Home/voice.jpg",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\voice.jpg",
+      "Route": "images/Home/home-2.fpicbwnw6v.png",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\home-2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7356,56 +8080,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1451407"
+          "Value": "114642"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"CpnTKclBEJJP+Eh79/McmDms2BM2kN2YzSOgX866qng=\""
+          "Value": "\"s8Rbp2oO8ZIh0d3v7FB4JAM6BHToFipEGgfQiQuyUYQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 22:43:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CpnTKclBEJJP+Eh79/McmDms2BM2kN2YzSOgX866qng="
-        }
-      ]
-    },
-    {
-      "Route": "images/Home/voice.yimgnfb0hh.jpg",
-      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\voice.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1451407"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CpnTKclBEJJP+Eh79/McmDms2BM2kN2YzSOgX866qng=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 22:43:17 GMT"
+          "Value": "Tue, 04 Mar 2025 13:14:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7415,15 +8102,134 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yimgnfb0hh"
+          "Value": "fpicbwnw6v"
         },
         {
           "Name": "label",
-          "Value": "images/Home/voice.jpg"
+          "Value": "images/Home/home-2.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CpnTKclBEJJP+Eh79/McmDms2BM2kN2YzSOgX866qng="
+          "Value": "sha256-s8Rbp2oO8ZIh0d3v7FB4JAM6BHToFipEGgfQiQuyUYQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/home-2.png",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\home-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s8Rbp2oO8ZIh0d3v7FB4JAM6BHToFipEGgfQiQuyUYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:14:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s8Rbp2oO8ZIh0d3v7FB4JAM6BHToFipEGgfQiQuyUYQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/home-3.45rboag41y.jpg",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\home-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2CETLIgSXWDmHj6lcPntr0EAuVZaJPZ2fUy0wrhpXTc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:55:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "45rboag41y"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Home/home-3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2CETLIgSXWDmHj6lcPntr0EAuVZaJPZ2fUy0wrhpXTc="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/home-3.jpg",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\home-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2CETLIgSXWDmHj6lcPntr0EAuVZaJPZ2fUy0wrhpXTc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 13:55:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2CETLIgSXWDmHj6lcPntr0EAuVZaJPZ2fUy0wrhpXTc="
         }
       ]
     },
@@ -7592,6 +8398,252 @@
       ]
     },
     {
+      "Route": "images/Organisations/burgas-ombudsman-logo.l98v741vp8.png",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Organisations\\burgas-ombudsman-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z/3J4n0A8RLBPXschWx/oQp8DtDhncge+qhVO9GEVdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:45:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l98v741vp8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Organisations/burgas-ombudsman-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z/3J4n0A8RLBPXschWx/oQp8DtDhncge+qhVO9GEVdI="
+        }
+      ]
+    },
+    {
+      "Route": "images/Organisations/burgas-ombudsman-logo.png",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Organisations\\burgas-ombudsman-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z/3J4n0A8RLBPXschWx/oQp8DtDhncge+qhVO9GEVdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:45:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z/3J4n0A8RLBPXschWx/oQp8DtDhncge+qhVO9GEVdI="
+        }
+      ]
+    },
+    {
+      "Route": "images/Organisations/fireworks.jpeg",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Organisations\\fireworks.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "370587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wU2jNNgVd/z/rFHPpVqy48I50gatwGQGBbtLdcZgxuk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 01:53:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wU2jNNgVd/z/rFHPpVqy48I50gatwGQGBbtLdcZgxuk="
+        }
+      ]
+    },
+    {
+      "Route": "images/Organisations/fireworks.rt96nhegzn.jpeg",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Organisations\\fireworks.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "370587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wU2jNNgVd/z/rFHPpVqy48I50gatwGQGBbtLdcZgxuk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 01:53:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rt96nhegzn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Organisations/fireworks.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wU2jNNgVd/z/rFHPpVqy48I50gatwGQGBbtLdcZgxuk="
+        }
+      ]
+    },
+    {
+      "Route": "images/Organisations/uchenicheski-parlament-veliko-tarnovo.focgik9svm.png",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Organisations\\uchenicheski-parlament-veliko-tarnovo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0amUb6KN3YOqRZuXlXKS+sOnBzsNVgZU+/TtAp+lqjs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 00:37:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "focgik9svm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Organisations/uchenicheski-parlament-veliko-tarnovo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0amUb6KN3YOqRZuXlXKS+sOnBzsNVgZU+/TtAp+lqjs="
+        }
+      ]
+    },
+    {
+      "Route": "images/Organisations/uchenicheski-parlament-veliko-tarnovo.png",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Organisations\\uchenicheski-parlament-veliko-tarnovo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0amUb6KN3YOqRZuXlXKS+sOnBzsNVgZU+/TtAp+lqjs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 00:37:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0amUb6KN3YOqRZuXlXKS+sOnBzsNVgZU+/TtAp+lqjs="
+        }
+      ]
+    },
+    {
       "Route": "images/yanislav.fbl40f0x1x.jpg",
       "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\yanislav.jpg",
       "Selectors": [],
@@ -7670,6 +8722,520 @@
         {
           "Name": "integrity",
           "Value": "sha256-Fd9Bd//rkQO6lLIu9d3Hk9kASxcVECpsk/QuASbFmJE="
+        }
+      ]
+    },
+    {
+      "Route": "js/design.jro8da6w0j.js",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\41idrxu6rd-jro8da6w0j.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002314814815"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qBk6M7a1afKLgyPoT7nJlIKmZ+hu4oS9OHZ6aubkZLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 20:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XyQ82oJi/RMEMHYaiMCmIATUKn4bVowevL52S4wAHIA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jro8da6w0j"
+        },
+        {
+          "Name": "label",
+          "Value": "js/design.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XyQ82oJi/RMEMHYaiMCmIATUKn4bVowevL52S4wAHIA="
+        }
+      ]
+    },
+    {
+      "Route": "js/design.jro8da6w0j.js",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\41idrxu6rd-jro8da6w0j.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.002994011976"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNg/HU/ECN+AOsMHSW9C0x3WNCkp1bDrItLSwPm+8Vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 20:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XyQ82oJi/RMEMHYaiMCmIATUKn4bVowevL52S4wAHIA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jro8da6w0j"
+        },
+        {
+          "Name": "label",
+          "Value": "js/design.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XyQ82oJi/RMEMHYaiMCmIATUKn4bVowevL52S4wAHIA="
+        }
+      ]
+    },
+    {
+      "Route": "js/design.jro8da6w0j.js",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\js\\design.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "888"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XyQ82oJi/RMEMHYaiMCmIATUKn4bVowevL52S4wAHIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 20:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jro8da6w0j"
+        },
+        {
+          "Name": "label",
+          "Value": "js/design.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XyQ82oJi/RMEMHYaiMCmIATUKn4bVowevL52S4wAHIA="
+        }
+      ]
+    },
+    {
+      "Route": "js/design.jro8da6w0j.js.br",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\41idrxu6rd-jro8da6w0j.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNg/HU/ECN+AOsMHSW9C0x3WNCkp1bDrItLSwPm+8Vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 20:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jro8da6w0j"
+        },
+        {
+          "Name": "label",
+          "Value": "js/design.js.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FNg/HU/ECN+AOsMHSW9C0x3WNCkp1bDrItLSwPm+8Vc="
+        }
+      ]
+    },
+    {
+      "Route": "js/design.jro8da6w0j.js.gz",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\41idrxu6rd-jro8da6w0j.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qBk6M7a1afKLgyPoT7nJlIKmZ+hu4oS9OHZ6aubkZLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 20:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jro8da6w0j"
+        },
+        {
+          "Name": "label",
+          "Value": "js/design.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qBk6M7a1afKLgyPoT7nJlIKmZ+hu4oS9OHZ6aubkZLg="
+        }
+      ]
+    },
+    {
+      "Route": "js/design.js",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\41idrxu6rd-jro8da6w0j.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002314814815"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qBk6M7a1afKLgyPoT7nJlIKmZ+hu4oS9OHZ6aubkZLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 20:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XyQ82oJi/RMEMHYaiMCmIATUKn4bVowevL52S4wAHIA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XyQ82oJi/RMEMHYaiMCmIATUKn4bVowevL52S4wAHIA="
+        }
+      ]
+    },
+    {
+      "Route": "js/design.js",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\41idrxu6rd-jro8da6w0j.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.002994011976"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNg/HU/ECN+AOsMHSW9C0x3WNCkp1bDrItLSwPm+8Vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 20:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XyQ82oJi/RMEMHYaiMCmIATUKn4bVowevL52S4wAHIA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XyQ82oJi/RMEMHYaiMCmIATUKn4bVowevL52S4wAHIA="
+        }
+      ]
+    },
+    {
+      "Route": "js/design.js",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\js\\design.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "888"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XyQ82oJi/RMEMHYaiMCmIATUKn4bVowevL52S4wAHIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 20:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XyQ82oJi/RMEMHYaiMCmIATUKn4bVowevL52S4wAHIA="
+        }
+      ]
+    },
+    {
+      "Route": "js/design.js.br",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\publish\\41idrxu6rd-jro8da6w0j.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNg/HU/ECN+AOsMHSW9C0x3WNCkp1bDrItLSwPm+8Vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 20:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FNg/HU/ECN+AOsMHSW9C0x3WNCkp1bDrItLSwPm+8Vc="
+        }
+      ]
+    },
+    {
+      "Route": "js/design.js.gz",
+      "AssetFile": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\obj\\Release\\net9.0\\compressed\\41idrxu6rd-jro8da6w0j.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "431"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qBk6M7a1afKLgyPoT7nJlIKmZ+hu4oS9OHZ6aubkZLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 20:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qBk6M7a1afKLgyPoT7nJlIKmZ+hu4oS9OHZ6aubkZLg="
         }
       ]
     },

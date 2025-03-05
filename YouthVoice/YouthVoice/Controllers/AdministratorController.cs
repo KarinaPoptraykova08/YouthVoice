@@ -3,6 +3,7 @@ using Google.Apis.Auth.OAuth2;
 using Google.Cloud.Firestore;
 using Google.Cloud.Firestore.V1;
 using Microsoft.AspNetCore.Mvc;
+using YouthVoice.Data;
 using YouthVoice.Models;
 
 namespace YouthVoice.Controllers
@@ -12,10 +13,12 @@ namespace YouthVoice.Controllers
         private FirestoreDb _firestoreDb;
         private EmailService _emailService;
         private FirebaseAuth _fbAuth;
+        private YouthVoiceDbContext _dbContext;
+        private SaveFileService _saveFileService;
 
         private UserRoleMangement userRoleManagement;
 
-        public AdministratorController()
+        public AdministratorController(YouthVoiceDbContext dbContext)
         {
             // Setting the firestore database (used for storing the role of a user)
             var credentials = GoogleCredential.FromFile("wwwroot/firebase-key.json");
@@ -28,7 +31,11 @@ namespace YouthVoice.Controllers
 
             _fbAuth = FirebaseAuth.DefaultInstance;
 
+            _dbContext = dbContext;
+
             _emailService = new EmailService();
+
+            _saveFileService = new SaveFileService();
 
             userRoleManagement = new UserRoleMangement();
         }
@@ -72,6 +79,11 @@ namespace YouthVoice.Controllers
             return View();
         }
 
+        public IActionResult CreateOrganisation()
+        {
+            return View();
+        }
+
         [HttpPost]
         public async Task<IActionResult> PromoteToEditor(string email)
         {
@@ -93,7 +105,7 @@ namespace YouthVoice.Controllers
 
             // Send notification email
             string subject = "Вашата роля беше променена";
-            string body = $"Уважаеми господине/госпожо,<br><br>Уведомяваме Ви, че вашата роля беше променена в <strong>Editor/Moderator</strong> в нашата система.<br><br>С уважение,<br>Екипът на YouthVoice";
+            string body = $"Уважаеми господине/госпожо,<br><br>Уведомяваме Ви, че вашата роля беше променена в <strong>Редактор</strong> в нашата система.<br><br>С уважение,<br>Екипът на YouthVoice";
             _emailService.SendEmail(email, subject, body);
 
             return RedirectToAction("RoleManaging");
@@ -120,7 +132,7 @@ namespace YouthVoice.Controllers
 
             // Send notification email
             string subject = "Вашата роля беше променена";
-            string body = $"Уважаеми господине/госпожо,<br><br>Уведомяваме Ви, че вашата роля беше променена във <strong>Viewer</strong> в нашата система.<br><br>С уважение,<br>Екипът на YouthVoice";
+            string body = $"Уважаеми господине/госпожо,<br><br>Уведомяваме Ви, че вашата роля беше променена във <strong>Потребител</strong> в нашата система.<br><br>С уважение,<br>Екипът на YouthVoice";
             _emailService.SendEmail(email, subject, body);
 
             return RedirectToAction("RoleManaging");
@@ -151,6 +163,24 @@ namespace YouthVoice.Controllers
                 ViewBag.ErrorMessage = $"Възникна грешка при премахване на потребител: {email}";
                 return RedirectToAction("RoleManaging");
             }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateOrganisation(Organisation org)
+        {
+            try
+            {
+                org.ImagePath = await _saveFileService.SaveFile(org.File, "images/Organisations/");
+
+                _dbContext.Organisations.Add(org);
+                _dbContext.SaveChanges();
+            }
+            catch (Exception)
+            {
+                ViewBag.ErrorMessage = "Възникна грешка при запазването на информацията.";
+            }           
+
+            return View();
         }
     }
 }

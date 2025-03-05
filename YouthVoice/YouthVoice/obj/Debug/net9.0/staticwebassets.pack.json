@@ -9,16 +9,16 @@
       "PackagePath": "staticwebassets\\css\\advanced-styles.css"
     },
     {
+      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\faq.css",
+      "PackagePath": "staticwebassets\\css\\faq.css"
+    },
+    {
       "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
-    },
-    {
-      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\css\\stylesheet.css",
-      "PackagePath": "staticwebassets\\css\\stylesheet.css"
     },
     {
       "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\firebase-key.json",
@@ -29,24 +29,52 @@
       "PackagePath": "staticwebassets\\images\\Admin\\admin-icon.jpg"
     },
     {
-      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\community.jpg",
-      "PackagePath": "staticwebassets\\images\\Home\\community.jpg"
+      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Events\\events.jpg",
+      "PackagePath": "staticwebassets\\images\\Events\\events.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Events\\flyer.png",
+      "PackagePath": "staticwebassets\\images\\Events\\flyer.png"
+    },
+    {
+      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Events\\youth-meeting.jpg",
+      "PackagePath": "staticwebassets\\images\\Events\\youth-meeting.jpg"
     },
     {
       "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\contact-us.svg",
       "PackagePath": "staticwebassets\\images\\Home\\contact-us.svg"
     },
     {
-      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\speak.jpg",
-      "PackagePath": "staticwebassets\\images\\Home\\speak.jpg"
+      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\home-1.png",
+      "PackagePath": "staticwebassets\\images\\Home\\home-1.png"
     },
     {
-      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\voice.jpg",
-      "PackagePath": "staticwebassets\\images\\Home\\voice.jpg"
+      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\home-2.png",
+      "PackagePath": "staticwebassets\\images\\Home\\home-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Home\\home-3.jpg",
+      "PackagePath": "staticwebassets\\images\\Home\\home-3.jpg"
     },
     {
       "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Moderator\\editor-pfp.png",
       "PackagePath": "staticwebassets\\images\\Moderator\\editor-pfp.png"
+    },
+    {
+      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Organisations\\burgas-ombudsman-logo.png",
+      "PackagePath": "staticwebassets\\images\\Organisations\\burgas-ombudsman-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Organisations\\fireworks.jpeg",
+      "PackagePath": "staticwebassets\\images\\Organisations\\fireworks.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Organisations\\uchenicheski-parlament-veliko-tarnovo.png",
+      "PackagePath": "staticwebassets\\images\\Organisations\\uchenicheski-parlament-veliko-tarnovo.png"
+    },
+    {
+      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\Organisations\\youth-meeting.jpg",
+      "PackagePath": "staticwebassets\\images\\Organisations\\youth-meeting.jpg"
     },
     {
       "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\events.jpg",
@@ -63,6 +91,10 @@
     {
       "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\images\\yanislav.jpg",
       "PackagePath": "staticwebassets\\images\\yanislav.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\js\\design.js",
+      "PackagePath": "staticwebassets\\js\\design.js"
     },
     {
       "Id": "C:\\Users\\Yanis\\Documents\\За училище\\11 клас\\Информатика\\YouthVoice\\YouthVoice\\YouthVoice\\wwwroot\\js\\script.js",

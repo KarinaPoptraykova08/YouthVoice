@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YouthVoice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c100cf1cc5da5c34d6a4a4b562224f5856760d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd1b4be449726a90efd609ecd33b1991ac1b95af")]
 [assembly: System.Reflection.AssemblyProductAttribute("YouthVoice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YouthVoice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

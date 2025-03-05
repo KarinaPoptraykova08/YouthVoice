@@ -1,0 +1,141 @@
+﻿@{
+    ViewData["Title"] = "Events";
+}
+@model YouthVoice.Data.Event
+
+<main>
+    <header class="page-header py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    @{
+                        <h1 class="display-4 fw-bold brand-text">@Model.Title</h1>
+                        <p class="lead">@Model.ShortDescription</p>
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p>
+                                    <i class="fa fa-flag pe-1"></i>
+                                    <span>Категория:</span>
+                                    @Model.Category
+                                </p>
+                                <p>
+                                    <i class="fa fa-calendar pe-1"></i>
+                                    <span>Дата: </span>
+                                    @Model.Date
+                                </p>
+                                <p>
+                                    <i class="fa fa-map-pin pe-1"></i>
+                                    <span>Място на провеждане:</span>
+                                    @Model.Location
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+                                @if(Model.Address != null) 
+                                {
+                                    <p>
+                                        <i class="fa fa-map-pin pe-1"></i>
+                                        <span>Адрес:</span>
+                                        @Model.Address
+                                    </p>
+                                }
+                                <p>
+                                    <i class="fa fa-clock-o pe-1"></i>
+                                    <span>Започва в: </span>
+                                    @Model.StartTime.ToString("HH:mm")
+                                </p>
+                                <p>
+                                    <i class="fa fa-clock-o pe-1"></i>
+                                    <span>Свършва в: </span>
+                                    @Model.EndTime.ToString("HH:mm")
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <p>
+                            <i class="fa fa-wifi pe-1"></i>
+                            <span>Тип на събитието: </span>
+                            @if(Model.InPersonOrOnline == "online") {
+                                <span>Онлайн</span>
+                            }
+                            else {
+                                <span>Присъствено</span>
+                            }
+                        </p>
+                        if (Model.InPersonOrOnline == "online")
+                        {                            
+                            if (Model.VirtualMeetingLink != null) 
+                            {
+                                <p>
+                                    <i class="fa fa-link pe-1"></i>
+                                    <span>Линк за виртуална среща: </span>
+                                    <a href="@Model.VirtualMeetingLink" class="link-primary text-decoration-underline" target="_blank">@Model.VirtualMeetingLink</a>
+                                </p>
+                            }
+                        }
+                    }
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="org-logo">
+                        <img src="~/@Model.ImagePath" class="img-fluid w-75 d-block ms-auto me-5" alt="Organizations">
+                    </div>
+                </div>
+            </div>
+            <div class="my-5">
+                <h4>Описание:</h4>
+                <p>@Model.Description</p>
+
+                @if (Model.VirtualMeetingLink != null)
+                {
+                    <p>
+                        <i class="fa fa-link"></i>
+                        <span>Линк за виртуална среща: </span>
+                        <a href="@Model.VirtualMeetingLink">@Model.VirtualMeetingLink</a>
+                    </p>
+                }
+                <p>
+                    @{
+                        string eventType = "";
+                        if (Model.InPersonOrOnline == "online")
+                        {
+                            eventType = "Онлайн";
+                            <i class="fa fa-wifi pe-1"></i>
+                        }
+                        else
+                        {
+                            eventType = "Присъствено";
+                            <i class="fa fa-users pe-1"></i>
+                        }
+                        <span>Вид на събитието: </span>@eventType
+                    }
+                </p>
+                @if (Model.Capacity != 0) 
+                {
+                    <p>
+                        <i class="fa fa-user-plus pe-1"></i>
+                        <span>Капацитет: </span>
+                        @Model.Capacity
+                    </p>
+                }
+                @if (Model.RegistrationDeadline != DateOnly.MinValue)
+                {
+                    <p>
+                        <i class="fa fa-calendar pe-1"></i>
+                        <span>Краен срок за регистрация: </span>
+                        @Model.RegistrationDeadline
+                    </p>
+                }
+                @if (Model.RegistrationLink != null)
+                {
+                    <p>
+                        <i class="fa fa-users pe-1"></i>
+                        <span>Линк за регистрация: </span>
+                        @Model.RegistrationLink
+                    </p>
+                }
+            </div>
+        </div>
+    </header>
+</main>

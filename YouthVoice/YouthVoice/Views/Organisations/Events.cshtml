@@ -1,7 +1,101 @@
-﻿@{
-    ViewData["Title"] = "Events";
-}
+﻿@model YouthVoice.Data.Organisation
 
 <main>
+    <!-- Filter Section -->
+    <section class="filter-section py-3 bg-light">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fa fa-search"></i></span>
+                        <input type="text" class="form-control" id="searchOrg" placeholder="Потърси организация...">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <select class="form-select" id="orgCity" required>
+                        <option value="">Изберете град</option>
+                        <option value="1">Благоевград</option>
+                        <option value="2">Бургас</option>
+                        <option value="3">Варна</option>
+                        <option value="4">Велико Търново</option>
+                        <option value="5">Видин</option>
+                        <option value="6">Враца</option>
+                        <option value="7">Габрово</option>
+                        <option value="8">Добрич</option>
+                        <option value="9">Кърджали</option>
+                        <option value="10">Кюстендил</option>
+                        <option value="11">Ловеч</option>
+                        <option value="12">Монтана</option>
+                        <option value="13">Пазарджик</option>
+                        <option value="14">Перник</option>
+                        <option value="15">Плевен</option>
+                        <option value="16">Пловдив</option>
+                        <option value="17">Разград</option>
+                        <option value="18">Русе</option>
+                        <option value="19">Силистра</option>
+                        <option value="20">Сливен</option>
+                        <option value="21">Смолян</option>
+                        <option value="22">София</option>
+                        <option value="23">Стара Загора</option>
+                        <option value="24">Търговище</option>
+                        <option value="25">Харсково</option>
+                        <option value="26">Шумен</option>
+                        <option value="27">Ямбол</option>
+                        <option value="28">Друга област</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <select class="form-select" id="categoryFilter">
+                        <option value="">Всички категории</option>
+                        <option value="Доброволчество">Доброволчество</option>
+                        <option value="Състезания">Състезания/Конкурси</option>
+                        <option value="Срещи">Срещи</option>
+                        <option value="Обучения">Обучения</option>
+                        <option value="Други">Други</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-primary w-100" id="applyFilters">Приложи</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Event List -->
+    <section class="organizations-list py-5">
+        <div class="container">
+            <div class="row" id="organizationsContainer">
+                @{
+                    if (ViewBag.NotFound != null)
+                    {
+                        <p>@ViewBag.NotFound</p>
+                    }
+                    else
+                    {
+                        foreach (var evt in Model.OrganisationEvents)
+                        {
+                            // Event Card
+                            <div class="col-md-6 col-lg-4 mb-4" data-city="Capital City" data-category="Leadership">
+                                <div class="card org-card h-100">
+                                    <img src="~/@evt.Event.ImagePath" class="card-img-top" alt="Събитие">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@evt.Event.Title</h5>
+                                        <p class="card-text">@evt.Event.ShortDescription</p>
+                                        <div class="org-meta">
+                                            <div class="org-location mb-2">
+                                                <i class="fa fa-map-pin pe-1"></i> @evt.Event.Location
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-top-0">
+                                        <a asp-controller="Organisations" asp-action="EventDetails" asp-route-id="@evt.EventId" class="btn btn-outline-primary">Разгледай</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }                        
+                    }
+                }                
+            </div>
+        </div>
+    </section>
 </main>

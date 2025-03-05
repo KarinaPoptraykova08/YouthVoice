@@ -1,4 +1,7 @@
-﻿/* Global Styles */
+﻿/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global Styles */
 :root {
     --primary-color: #4e54c8;
     --primary-dark: #3f44ae;
@@ -13,7 +16,7 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Jost", sans-serif;
     color: var(--text-color);
     line-height: 1.6;
     overflow-x: hidden;
@@ -342,6 +345,14 @@ footer img {
     .org-logo {
         display: none;
     }
+
+    footer img {
+        display: none;
+    }
+
+    .contact-us-img {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -365,6 +376,14 @@ footer img {
     .org-logo {
         display: none;
     }
+
+    footer img {
+        display: none;
+    }
+
+    .contact-us-img {
+        display: none;
+    }
 }
 
 @media (max-width: 576px) {
@@ -385,6 +404,10 @@ footer img {
     }
 
     .org-logo {
+        display: none;
+    }
+
+    .contact-us-img {
         display: none;
     }
 }

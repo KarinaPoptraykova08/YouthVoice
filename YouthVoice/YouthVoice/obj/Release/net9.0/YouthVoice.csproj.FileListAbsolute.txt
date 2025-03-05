@@ -251,6 +251,8 @@ C:\Users\Yanis\Documents\За училище\11 клас\Информатика\
 C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\YouthVoice\obj\Release\net9.0\ref\YouthVoice.dll
 C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\YouthVoice\obj\Release\net9.0\compressed\an66oxkb7n-6knw7s4cq4.gz
 C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\YouthVoice\obj\Release\net9.0\compressed\txefh6vp6p-d4nexvrbr1.gz
-C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\YouthVoice\obj\Release\net9.0\compressed\0pp0wlfa0k-dceiu3fo0f.gz
-C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\YouthVoice\obj\Release\net9.0\compressed\ago6avehfw-jolfy31u35.gz
 C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\YouthVoice\obj\Release\net9.0\compressed\nxyoz7nlty-v8vocg4e4e.gz
+C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\YouthVoice\obj\Release\net9.0\compressed\0pp0wlfa0k-tuqpu10kyr.gz
+C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\YouthVoice\obj\Release\net9.0\compressed\8t8kuoe7kw-ob2ffx8t26.gz
+C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\YouthVoice\obj\Release\net9.0\compressed\y8p1nepbor-du8h11kvav.gz
+C:\Users\Yanis\Documents\За училище\11 клас\Информатика\YouthVoice\YouthVoice\YouthVoice\obj\Release\net9.0\compressed\41idrxu6rd-jro8da6w0j.gz

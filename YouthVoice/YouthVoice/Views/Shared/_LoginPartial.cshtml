@@ -2,7 +2,7 @@
     @if (User.Identity?.IsAuthenticated ?? false)
     {
         <li class="nav-item align-middle m-0">
-            <p class="nav-link bg-transparent border-0 align-middle m-0">Hello @User.Identity?.Name!</p>
+            <p class="nav-link bg-transparent border-0 align-middle m-0">Здравей @User.Identity?.Name!</p>
         </li>
 
         if (User.IsInRole("editor"))
